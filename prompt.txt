@@ -1,0 +1,90 @@
+
+Actualmente solo se visualiza una capa de puntos en el mapa, esa capa no se puede prender ni apagar. Agregala al gestor de gapas.
+Agrega también la tabla datos.tc_qr_n3 y visualiza de la siguiente forma las columnas en a tabla: 
+
+En el pop up al click en el elemento 
+name = Nombre del Tramo
+cod_name = Código Celda-Subcelda-Tramo
+celda = Celda
+subcelda = Subcelda 
+tipo = Tipo
+
+En la barra lateral izquierda 
+longitud = Longitud del tramo (km) 
+ac_calle = Acceso
+t_geomo = Tipo geomorfológico 
+subtipo = Subtipo geomorfológico y descripción 
+t_playa = Tipo de playa 
+n_energi = Nivel energético del oleaje
+d_t_lito = Dirección del transporte litoral
+magn_m3a = Magnitud del transporte litoral (m³/año) 
+fuentsed = Fuente sedimentaria principal
+sumidero = Sumidero sedimentario principal 
+bal_m3a = Balance sedimentario neto (m³/año)
+est_cost = Estado de conservación costera 
+eros_acr = Tasa de erosión/acreción documentada (m/año) 
+inf_arre = Infraestructura arrecifal (SAM) 
+inf_mang = Infraestructura de manglar 
+p_antrop = Presión antrópica 
+conectiv = Conectividad sedimentaria con tramos vecinos
+incertid = Incertidumbre técnica
+evidenci = Tipo y calidad de evidencia 
+municip = Municipios intersectados
+anps = Áreas Naturales Protegidas intersectadas
+
+
+En la barra inferior 
+c_eros = Lineamientos de Control de Erosión (vista completa) 
+protcons = Lineamientos de Protección y Conservación 
+aprovsos = Lineamientos de Aprovechamiento Sostenible
+infcost = Lineamientos de Infraestructura Costera 
+gesries = Lineamientos de Gestión de Riesgos
+gobgest = Lineamientos de Gobernanza y Gestión 
+
+
+Ahora vamos a repetir el proceso anterior con la tabla datos.subcel_qr_n2
+Para llamar los puntos de las fotos, usa las claves de celda que se encuentran al inicio del cod_name de la tabla y son las siguientes  
+QR-I-a, QR-I-b, QR-II-a ,QR-II-b ,QR-II-c ,QR-II-d ,QR-II-e ,QR-II-f,QR-II-g,QR-III-a,QR-III-b,QR-IV-a,QR-IV-b,QR-IV-c,QR-IV-d,QR-IV-e,QR-Cz-a,QR-Cz-b,QR-V,QR-VI,QR-VII
+
+
+Acordeón de Niveles de análisis 
+codigo = código de subcelda
+celda = código de celda padre
+nombre =  nombre de la subcelda
+nomcelda =  nombre de la celda padre
+
+Acordeón de Datos Generales
+n_tramo =  número de tramos
+lon_km =  longitud convoluta de costa (km)
+tramos =  tramos que componen la subcelda
+arquetip =  arquetipo doctrinal predominante
+caracter =  caracterización de la subcelda
+t_geomos =  tipos geomorfológicos presentes
+municip =  municipios intersectados
+anps =  áreas naturales protegidas intersectadas
+c_eros =  lineamientos de control de erosión (vista completa)
+
+Acordeón de lineamientos 
+protcons =  lineamientos de protección y conservación
+aprovsos =  lineamientos de aprovechamiento sostenible
+infcost =  lineamientos de infraestructura costera
+gesries =  lineamientos de gestión de riesgos
+gobgest =  lineamientos de gobernanza y gestión
+
+
+Que la capa que se vea por default al cargar el mapa sea la de Tramos de costa. En Celdas y Subceldas quita la leyenda que dice (Polígonos) 
+En el botón de Cambiar capa base, cambia el nombre a Gestor de capas y cambia los datos geográficos arriba y las capas base abajo y elimina la capa base de Esri Oceanos    
+Al cambiar la seleccion de capa deben actualizarle los sidebar derecho e izquierdo. 
+Sigue sin verse completo el texto del acordeon de lineamientos ed la capa de subcelas, estaría bien que el modulo d carga de ese tipo de información que tienen atributos parecidos o iguales, ya fuera homo geneo para que no hubiera problemas con las visualizaciones y sean modulos reusables   
+En el mapa haz zoom a los puntos de las fotografías cuando el usuario de click en el punto, lo más cerca que puedas estar del mapa 
+
+
+
+
+
+
+
+
+
+
+

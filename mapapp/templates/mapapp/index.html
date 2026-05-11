@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor de Datos Geográficos - Quintana Roo</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- App CSS -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}?v=21">
+</head>
+
+<body>
+
+    <!-- Header Superior -->
+    <header class="app-header"
+        style="position: absolute; top: 0; left: 0; right: 0; height: 60px; background: linear-gradient(135deg, rgba(26, 58, 92, 0.97) 0%, rgba(45, 106, 159, 0.97) 100%); z-index: 2000; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); display: flex; align-items: center; padding: 0 24px; color: #ffffff;">
+        <img src="{% static 'img/LOGO1.jpeg' %}" alt="Logo" style="height: 40px; margin-right: 15px; border-radius: 4px;">
+        <h1 class="header-title"
+            style="font-family: 'Roboto', sans-serif; font-size: 1.1rem; font-weight: 400; margin: 0; color: #ffffff; letter-spacing: 0.02em;">
+            Lineamientos de gestión para la zona costera - Estado de Quintana Roo</h1>
+        <nav style="margin-left: auto; display: flex; gap: 20px;">
+            <a href="{% url 'mapapp:landing' %}"
+                style="font-family: 'Roboto', sans-serif; color: #e0f2fe; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s;">Inicio</a>
+            <a href="{% url 'mapapp:acerca' %}"
+                style="font-family: 'Roboto', sans-serif; color: #e0f2fe; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s;">Acerca
+                de</a>
+        </nav>
+    </header>
+
+    <!-- Modal de Fotos -->
+    <div id="photo-modal" class="modal-overlay"
+        style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(8px); z-index: 5000; align-items: center; justify-content: center; padding: 40px;">
+        <div class="modal-content"
+            style="position: relative; max-width: 90%; max-height: 90%; background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15); border: 1px solid #e2e8f0; display: flex; flex-direction: column;">
+            <button id="close-modal"
+                style="position: absolute; top: 15px; right: 15px; background: #f1f5f9; border: none; color: #334155; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; z-index: 5001; transition: background 0.2s;"><i
+                    class="fas fa-times"></i></button>
+            <div
+                style="overflow-y: auto; flex: 1; display: flex; flex-direction: column; align-items: center; padding: 20px;">
+                <img id="modal-img" src=""
+                    style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);">
+                <div id="modal-caption"
+                    style="margin-top: 20px; color: #475569; font-size: 1.1rem; line-height: 1.6; text-align: center; max-width: 800px; font-weight: 400; padding: 10px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Panel de Diagnóstico (Izquierdo) -->
+    <div id="left-panel" class="side-panel left-panel hidden">
+        <button class="close-btn" id="close-left"><i class="fas fa-times"></i></button>
+        <h2 id="info-title">Diagnóstico</h2>
+        <div id="info-content" class="info-content">
+            <p class="empty-state">Selecciona un tramo en el mapa para cargar su diagnóstico.</p>
+        </div>
+    </div>
+
+    <!-- Contenedor del Mapa -->
+    <div id="map" style="top: 60px; height: calc(100vh - 60px);"></div>
+
+    <!-- Panel de Fotos (Derecho) -->
+    <div id="right-panel" class="side-panel right-panel hidden">
+        <button class="close-btn" id="close-right"><i class="fas fa-times"></i></button>
+        <h2>Fotografías</h2>
+        <div id="photos-container" class="photos-container">
+            <p class="empty-state">Selecciona un tramo para explorar la galería de fotos.</p>
+        </div>
+    </div>
+
+    <div class="map-controls">
+        <button id="initial-view" class="control-btn" title="Restablecer Vista Inicial">
+            <i class="fas fa-sync-alt"></i>
+        </button>
+
+        <div style="position: relative;">
+            <button id="custom-layer-btn" class="control-btn" title="Gestor de Capas">
+                <i class="fas fa-layer-group"></i>
+            </button>
+            <div id="layer-menu"
+                style="display: none; position: absolute; top: 55px; left: 50%; transform: translateX(-50%); background: white; border-radius: 12px; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.2); width: 210px; padding: 12px; z-index: 1001; border: 1px solid #e2e8f0;">
+                <div
+                    style="font-size: 0.65rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; padding: 0 8px 8px 8px; font-weight: 800;">
+                    Datos Geográficos</div>
+                <div class="overlay-option"
+                    style="padding: 8px; cursor: pointer; border-radius: 8px; color: #334155; font-size: 0.85rem; font-weight: 500; display: flex; align-items: center; gap: 10px; transition: background 0.2s;">
+                    <input type="checkbox" id="check-tramos" checked
+                        style="width: 16px; height: 16px; cursor: pointer; accent-color: #3b82f6;">
+                    <label for="check-tramos" style="cursor: pointer; flex: 1; margin: 0;">Tramos de Costa</label>
+                </div>
+                <div class="overlay-option"
+                    style="padding: 8px; cursor: pointer; border-radius: 8px; color: #334155; font-size: 0.85rem; font-weight: 500; display: flex; align-items: center; gap: 10px; transition: background 0.2s;">
+                    <input type="checkbox" id="check-celdas"
+                        style="width: 16px; height: 16px; cursor: pointer; accent-color: #10b981;">
+                    <label for="check-celdas" style="cursor: pointer; flex: 1; margin: 0;">Celdas</label>
+                </div>
+                <div class="overlay-option"
+                    style="padding: 8px; cursor: pointer; border-radius: 8px; color: #334155; font-size: 0.85rem; font-weight: 500; display: flex; align-items: center; gap: 10px; transition: background 0.2s;">
+                    <input type="checkbox" id="check-subceldas"
+                        style="width: 16px; height: 16px; cursor: pointer; accent-color: #f59e0b;">
+                    <label for="check-subceldas" style="cursor: pointer; flex: 1; margin: 0;">Subceldas</label>
+                </div>
+
+                <div
+                    style="border-top: 1px solid #f1f5f9; margin-top: 10px; padding-top: 10px; font-size: 0.65rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; padding-left: 8px; padding-bottom: 8px; font-weight: 800;">
+                    Capas Base</div>
+                <div class="layer-option active" data-layer="Esri Satélite"
+                    style="padding: 10px; cursor: pointer; border-radius: 8px; color: #3b82f6; background: #eff6ff; font-size: 0.85rem; font-weight: 600; transition: all 0.2s; display: flex; align-items: center; gap: 8px;">
+                    <i class="fas fa-globe"></i> Esri Satélite</div>
+                <div class="layer-option" data-layer="Google Híbrido"
+                    style="padding: 10px; cursor: pointer; border-radius: 8px; color: #334155; font-size: 0.85rem; font-weight: 600; transition: all 0.2s; display: flex; align-items: center; gap: 8px;">
+                    <i class="fab fa-google"></i> Google Híbrido</div>
+            </div>
+        </div>
+
+        <button id="zoom-in" class="control-btn" title="Acercar">
+            <i class="fas fa-plus"></i>
+        </button>
+        <button id="zoom-out" class="control-btn" title="Alejar">
+            <i class="fas fa-minus"></i>
+        </button>
+
+        <div class="search-box">
+            <input type="text" id="map-search" autocomplete="off">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <button id="toggle-left-info" class="control-btn toggle-side-btn hidden" title="Mostrar Diagnóstico">
+            <i class="fas fa-file-alt"></i>
+        </button>
+
+        <button id="toggle-right-info" class="control-btn toggle-side-btn hidden" title="Mostrar Fotos">
+            <i class="fas fa-images"></i>
+        </button>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // UI Elements
+            const leftPanel = document.getElementById('left-panel');
+            const rightPanel = document.getElementById('right-panel');
+            const toggleLeftBtn = document.getElementById('toggle-left-info');
+            const toggleRightBtn = document.getElementById('toggle-right-info');
+            const layerMenu = document.getElementById('layer-menu');
+            const layerBtn = document.getElementById('custom-layer-btn');
+
+            // Map Setup
+            const map = L.map('map', { zoomControl: false }).setView([19.6713, -87.8732], 7);
+
+            const satLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { attribution: 'Tiles &copy; Esri', maxZoom: 19 }).addTo(map);
+            const oceanLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}', { attribution: 'Tiles &copy; Esri', maxZoom: 13 });
+            const googleHybrid = L.tileLayer('http://mt0.google.com/vt/lyrs=y&hl=es&x={x}&y={y}&z={z}', { attribution: 'Map data &copy; Google', maxZoom: 20 });
+
+            const baseMaps = { "Esri Satélite": satLayer, "Esri Océanos": oceanLayer, "Google Híbrido": googleHybrid };
+
+            // Layer Toggle Logic
+            layerBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                layerMenu.style.display = layerMenu.style.display === 'none' ? 'block' : 'none';
+            });
+            document.addEventListener('click', () => layerMenu.style.display = 'none');
+
+            document.querySelectorAll('.layer-option').forEach(option => {
+                option.addEventListener('click', (e) => {
+                    const layerKey = e.currentTarget.getAttribute('data-layer');
+                    Object.values(baseMaps).forEach(l => map.removeLayer(l));
+                    baseMaps[layerKey].addTo(map);
+                    document.querySelectorAll('.layer-option').forEach(opt => {
+                        opt.style.background = 'transparent';
+                        opt.style.color = '#334155';
+                    });
+                    e.currentTarget.style.background = '#eff6ff';
+                    e.currentTarget.style.color = '#3b82f6';
+                });
+            });
+
+            // Zoom Controls
+            document.getElementById('zoom-in').addEventListener('click', () => map.zoomIn());
+            document.getElementById('zoom-out').addEventListener('click', () => map.zoomOut());
+
+            // Tramos Layer
+            let tramosLayer = null;
+            let lastSelectedLayer = null; // Para resaltar el tramo seleccionado
+
+            fetch('/api/tramos/')
+                .then(r => r.json())
+                .then(data => {
+                    tramosLayer = L.geoJSON(data, {
+                        style: { color: "#004b87", weight: 4, opacity: 0.8 },
+                        onEachFeature: (feature, layer) => {
+                            const popup = `
+                                <div style="font-family: 'Inter', sans-serif; padding: 5px;">
+                                    <div style="font-size: 0.75rem; color: #475569; display: grid; gap: 2px;">
+                                        <div><b style="color: #6366f1;">Código:</b> ${feature.properties.cod_name}</div>
+                                        <div><b style="color: #6366f1;">Celda:</b> ${feature.properties.celda}</div>
+                                        <div><b style="color: #6366f1;">Subcelda:</b> ${feature.properties.subcelda}</div>
+                                        <div><b style="color: #6366f1;">Tipo:</b> ${feature.properties.tipo}</div>
+                                    </div>
+                                </div>`;
+                            layer.bindTooltip(popup, { sticky: true });
+                            layer.on({
+                                mouseover: e => {
+                                    if (e.target !== lastSelectedLayer) {
+                                        e.target.setStyle({ weight: 6, color: '#00a9e0', opacity: 1 });
+                                    }
+                                },
+                                mouseout: e => {
+                                    if (e.target !== lastSelectedLayer) {
+                                        tramosLayer.resetStyle(e.target);
+                                    }
+                                },
+                                click: e => {
+                                    // Resetear estilo del tramo anterior
+                                    if (lastSelectedLayer) {
+                                        tramosLayer.resetStyle(lastSelectedLayer);
+                                    }
+
+                                    // Resaltar tramo actual
+                                    const layer = e.target;
+                                    layer.setStyle({ color: '#00a9e0', weight: 5, opacity: 1 });
+                                    lastSelectedLayer = layer;
+
+                                    map.fitBounds(layer.getBounds(), { padding: [100, 100], animate: true });
+                                    fetchTramoDetalle(feature.properties.id);
+                                }
+                            });
+                        }
+                    }).addTo(map);
+
+                    document.getElementById('check-tramos').addEventListener('change', e => {
+                        if (e.target.checked) {
+                            map.addLayer(tramosLayer);
+                        } else {
+                            map.removeLayer(tramosLayer);
+                            // También apagar fotos si se apagan las líneas
+                            if (window.photoMarkersLayer) {
+                                map.removeLayer(window.photoMarkersLayer);
+                            }
+                        }
+                    });
+
+                    if (data.features.length > 0) map.fitBounds(tramosLayer.getBounds(), { padding: [50, 50] });
+                });
+
+            // Celdas Layer
+            let celdasLayer = null;
+            let lastSelectedCeldaLayer = null;
+
+            fetch('/api/celdas/')
+                .then(r => r.json())
+                .then(data => {
+                    celdasLayer = L.geoJSON(data, {
+                        style: { color: "#10b981", fillColor: "#10b981", weight: 2, opacity: 0.8, fillOpacity: 0.2 },
+                        onEachFeature: (feature, layer) => {
+                            const popup = `
+                                <div style="font-family: 'Inter', sans-serif; padding: 5px;">
+                                    <div style="font-size: 0.75rem; color: #475569; display: grid; gap: 2px;">
+                                        <div><b style="color: #10b981;">Código:</b> ${feature.properties.codigo}</div>
+                                        <div><b style="color: #10b981;">Nombre:</b> ${feature.properties.nombre || 'Sin nombre'}</div>
+                                    </div>
+                                </div>`;
+                            layer.bindTooltip(popup, { sticky: true });
+                            layer.on({
+                                mouseover: e => {
+                                    if (e.target !== lastSelectedCeldaLayer) {
+                                        e.target.setStyle({ weight: 4, color: '#34d399', fillOpacity: 0.4 });
+                                    }
+                                },
+                                mouseout: e => {
+                                    if (e.target !== lastSelectedCeldaLayer) {
+                                        celdasLayer.resetStyle(e.target);
+                                    }
+                                },
+                                click: e => {
+                                    if (lastSelectedCeldaLayer) celdasLayer.resetStyle(lastSelectedCeldaLayer);
+                                    if (lastSelectedLayer && tramosLayer) { tramosLayer.resetStyle(lastSelectedLayer); lastSelectedLayer = null; }
+                                    const layer = e.target;
+                                    layer.setStyle({ color: '#059669', weight: 4, fillOpacity: 0.5 });
+                                    lastSelectedCeldaLayer = layer;
+                                    map.fitBounds(layer.getBounds(), { padding: [100, 100], animate: true });
+                                    fetchCeldaDetalle(feature.properties.id);
+                                }
+                            });
+                        }
+                    }); // NOT added to map by default
+
+                    document.getElementById('check-celdas').addEventListener('change', e => {
+                        if (e.target.checked) {
+                            map.addLayer(celdasLayer);
+                        } else {
+                            map.removeLayer(celdasLayer);
+                            if (window.photoMarkersLayer) map.removeLayer(window.photoMarkersLayer);
+                            resetSidebars();
+                        }
+                    });
+                });
+
+            // Subceldas Layer
+            let subceldasLayer = null;
+            let lastSelectedSubceldaLayer = null;
+
+            fetch('/api/subceldas/')
+                .then(r => r.json())
+                .then(data => {
+                    subceldasLayer = L.geoJSON(data, {
+                        style: { color: "#f59e0b", fillColor: "#f59e0b", weight: 2, opacity: 0.8, fillOpacity: 0.15 },
+                        onEachFeature: (feature, layer) => {
+                            const popup = `
+                                <div style="font-family: 'Inter', sans-serif; padding: 5px;">
+                                    <div style="font-size: 0.75rem; color: #475569; display: grid; gap: 2px;">
+                                        <div><b style="color: #f59e0b;">Código:</b> ${feature.properties.codigo}</div>
+                                        <div><b style="color: #f59e0b;">Nombre:</b> ${feature.properties.nombre || 'Sin nombre'}</div>
+                                        <div><b style="color: #f59e0b;">Celda:</b> ${feature.properties.celda}</div>
+                                    </div>
+                                </div>`;
+                            layer.bindTooltip(popup, { sticky: true });
+                            layer.on({
+                                mouseover: e => {
+                                    if (e.target !== lastSelectedSubceldaLayer) {
+                                        e.target.setStyle({ weight: 3, color: '#fbbf24', fillOpacity: 0.35 });
+                                    }
+                                },
+                                mouseout: e => {
+                                    if (e.target !== lastSelectedSubceldaLayer) {
+                                        subceldasLayer.resetStyle(e.target);
+                                    }
+                                },
+                                click: e => {
+                                    if (lastSelectedSubceldaLayer) subceldasLayer.resetStyle(lastSelectedSubceldaLayer);
+                                    if (lastSelectedCeldaLayer && celdasLayer) { celdasLayer.resetStyle(lastSelectedCeldaLayer); lastSelectedCeldaLayer = null; }
+                                    if (lastSelectedLayer && tramosLayer) { tramosLayer.resetStyle(lastSelectedLayer); lastSelectedLayer = null; }
+
+                                    const layer = e.target;
+                                    layer.setStyle({ color: '#d97706', weight: 3, fillOpacity: 0.45 });
+                                    lastSelectedSubceldaLayer = layer;
+
+                                    map.fitBounds(layer.getBounds(), { padding: [100, 100], animate: true });
+                                    fetchSubceldaDetalle(feature.properties.id);
+                                }
+                            });
+                        }
+                    }); // NOT added to map by default
+
+                    document.getElementById('check-subceldas').addEventListener('change', e => {
+                        if (e.target.checked) {
+                            map.addLayer(subceldasLayer);
+                        } else {
+                            map.removeLayer(subceldasLayer);
+                            if (window.photoMarkersLayer) map.removeLayer(window.photoMarkersLayer);
+                            resetSidebars();
+                        }
+                    });
+                });
+
+            // Sidebar Details
+            function resetSidebars() {
+                document.getElementById('info-title').innerText = 'Selecciona un elemento';
+                document.getElementById('info-content').innerHTML = '<p class="empty-state">Haz clic en un elemento del mapa para ver su diagnóstico.</p>';
+                document.getElementById('photos-container').innerHTML = '<p class="empty-state">Selecciona un tramo para explorar la galería de fotos.</p>';
+                leftPanel.classList.add('hidden');
+                rightPanel.classList.add('hidden');
+                updateToggles();
+            }
+
+            function updateSidebarAndPhotos(data) {
+                document.getElementById('info-title').innerText = `${data.name}`;
+                document.getElementById('info-content').innerHTML = `
+                            <div class="accordion">
+                                <div class="accordion-item active">
+                                    <div class="accordion-header">
+                                        <span><i class="fas fa-layer-group"></i> Niveles de análisis</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="accordion-body">${data.niveles_analisis}</div>
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="accordion-header">
+                                        <span><i class="fas fa-database"></i> Datos Generales</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="accordion-body">${data.datos_generales}</div>
+                                </div>
+                                <div class="accordion-item active">
+                                    <div class="accordion-header">
+                                        <span><i class="fas fa-clipboard-list"></i> Lineamientos</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                    <div class="accordion-body">${data.lineamientos}</div>
+                                </div>
+                            </div>`;
+
+                document.getElementById('info-content').querySelectorAll('.accordion-header').forEach(h => {
+                    h.addEventListener('click', () => h.parentElement.classList.toggle('active'));
+                });
+
+                document.getElementById('info-content').querySelectorAll('.nested-header').forEach(h => {
+                    h.addEventListener('click', () => h.parentElement.classList.toggle('active'));
+                });
+
+                // Limpiar marcadores de fotos anteriores
+                if (window.photoMarkersLayer) {
+                    map.removeLayer(window.photoMarkersLayer);
+                }
+                window.photoMarkersLayer = L.layerGroup().addTo(map);
+
+                // Renderizar Fotos en el panel derecho y Marcadores en el mapa
+                const photosContainer = document.getElementById('photos-container');
+                if (data.photos && data.photos.length > 0) {
+                    photosContainer.innerHTML = data.photos.map(p => `
+                                <div class="photo-card" id="photo-${p.nombre.replace(/[^a-z0-9]/gi, '_')}" data-full-img="/api/fotos/${p.nombre}">
+                                    <img src="/api/fotos/${p.nombre}" alt="${p.nombre}">
+                                </div>
+                            `).join('');
+
+                    // Icono de cámara normal (pequeño)
+                    const cameraIcon = L.divIcon({
+                        html: '<i class="fas fa-camera" style="color: #004b87; font-size: 14px; text-shadow: 0 0 3px white;"></i>',
+                        className: 'custom-photo-icon',
+                        iconSize: [14, 14],
+                        iconAnchor: [7, 7]
+                    });
+
+                    // Icono de cámara hover (mediano, cian)
+                    const hoverCameraIcon = L.divIcon({
+                        html: '<i class="fas fa-camera" style="color: #00a9e0; font-size: 20px; text-shadow: 0 0 4px white; filter: drop-shadow(0 1px 3px rgba(0,0,0,0.3));"></i>',
+                        className: 'custom-photo-icon-hover',
+                        iconSize: [20, 20],
+                        iconAnchor: [10, 10]
+                    });
+
+                    // Icono de cámara seleccionado (más grande y resaltado)
+                    const selectedCameraIcon = L.divIcon({
+                        html: '<i class="fas fa-camera" style="color: #00a9e0; font-size: 24px; text-shadow: 0 0 5px white; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));"></i>',
+                        className: 'custom-photo-icon-selected',
+                        iconSize: [24, 24],
+                        iconAnchor: [12, 12]
+                    });
+
+                    // Guardar mapa de nombre → marker para acceso desde las tarjetas
+                    window.photoMarkerMap = {};
+
+                    data.photos.forEach(p => {
+                        if (p.lat && p.lon) {
+                            const marker = L.marker([p.lat, p.lon], { icon: cameraIcon }).addTo(window.photoMarkersLayer);
+                            window.photoMarkerMap[p.nombre] = { marker, selected: false };
+
+                            marker.on('click', () => {
+                                // Resetear icono de todos los marcadores
+                                window.photoMarkersLayer.eachLayer(layer => layer.setIcon(cameraIcon));
+                                Object.values(window.photoMarkerMap).forEach(m => m.selected = false);
+
+                                // Resaltar el marcador actual
+                                marker.setIcon(selectedCameraIcon);
+                                window.photoMarkerMap[p.nombre].selected = true;
+
+                                // Zoom al marcador
+                                map.flyTo([p.lat, p.lon], 17, { animate: true, duration: 0.8 });
+
+                                // Resaltar en el sidebar
+                                const safeId = `photo-${p.nombre.replace(/[^a-z0-9]/gi, '_')}`;
+                                const card = document.getElementById(safeId);
+                                if (card) {
+                                    document.querySelectorAll('.photo-card').forEach(c => c.classList.remove('active'));
+                                    card.classList.add('active');
+                                    card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                }
+                            });
+                        }
+                    });
+
+                    // Hover en tarjetas del sidebar → resaltar marcador en mapa
+                    document.querySelectorAll('.photo-card').forEach(card => {
+                        const nombre = card.id.replace('photo-', '').replace(/_/g, '.');
+                        // Buscar el nombre real que coincida con el id sanitizado
+                        const matchedName = Object.keys(window.photoMarkerMap).find(n =>
+                            n.replace(/[^a-z0-9]/gi, '_') === card.id.replace('photo-', '')
+                        );
+                        if (!matchedName) return;
+
+                        card.addEventListener('mouseenter', () => {
+                            const entry = window.photoMarkerMap[matchedName];
+                            if (entry && !entry.selected) {
+                                entry.marker.setIcon(hoverCameraIcon);
+                            }
+                        });
+                        card.addEventListener('mouseleave', () => {
+                            const entry = window.photoMarkerMap[matchedName];
+                            if (entry && !entry.selected) {
+                                entry.marker.setIcon(cameraIcon);
+                            }
+                        });
+                    });
+                } else {
+                    photosContainer.innerHTML = '<p class="empty-state">No hay fotos para este tramo/celda.</p>';
+                }
+
+                leftPanel.classList.remove('hidden');
+                rightPanel.classList.remove('hidden');
+                updateToggles();
+            }
+
+            function fetchTramoDetalle(id) {
+                fetch(`/api/tramos/${id}/`)
+                    .then(r => r.json())
+                    .then(data => updateSidebarAndPhotos(data));
+            }
+
+            function fetchCeldaDetalle(id) {
+                fetch(`/api/celdas/${id}/`)
+                    .then(r => r.json())
+                    .then(data => updateSidebarAndPhotos(data));
+            }
+
+            function fetchSubceldaDetalle(id) {
+                fetch(`/api/subceldas/${id}/`)
+                    .then(r => r.json())
+                    .then(data => updateSidebarAndPhotos(data));
+            }
+
+            // UI Actions
+            document.getElementById('close-left').onclick = () => { leftPanel.classList.add('hidden'); updateToggles(); };
+            document.getElementById('close-right').onclick = () => {
+                rightPanel.classList.add('hidden');
+                updateToggles();
+                // Apagar fotos al cerrar el panel
+                if (window.photoMarkersLayer) {
+                    map.removeLayer(window.photoMarkersLayer);
+                }
+            };
+            toggleLeftBtn.onclick = () => { leftPanel.classList.toggle('hidden'); updateToggles(); };
+            toggleRightBtn.onclick = () => {
+                rightPanel.classList.toggle('hidden');
+                updateToggles();
+
+                if (window.photoMarkersLayer) {
+                    if (rightPanel.classList.contains('hidden')) {
+                        map.removeLayer(window.photoMarkersLayer);
+                    } else {
+                        map.addLayer(window.photoMarkersLayer);
+                    }
+                }
+            };
+
+            function updateToggles() {
+                toggleLeftBtn.classList.toggle('hidden', !leftPanel.classList.contains('hidden'));
+                toggleRightBtn.classList.toggle('hidden', !rightPanel.classList.contains('hidden'));
+            }
+
+            document.getElementById('initial-view').onclick = () => {
+                leftPanel.classList.add('hidden');
+                rightPanel.classList.add('hidden');
+                updateToggles();
+
+                // Apagar marcadores de fotos
+                if (window.photoMarkersLayer) {
+                    map.removeLayer(window.photoMarkersLayer);
+                    window.photoMarkersLayer = null;
+                }
+
+                // Deseleccionar tramo
+                if (lastSelectedLayer && tramosLayer) {
+                    tramosLayer.resetStyle(lastSelectedLayer);
+                    lastSelectedLayer = null;
+                }
+
+                if (tramosLayer) map.flyToBounds(tramosLayer.getBounds(), { padding: [50, 50], duration: 1.2 });
+            };
+
+            // Search
+            document.getElementById('search-btn').onclick = () => doSearch();
+            document.getElementById('map-search').onkeypress = (e) => { if (e.key === 'Enter') doSearch(); };
+
+            function doSearch() {
+                const term = document.getElementById('map-search').value.toLowerCase().trim();
+                if (!term || !tramosLayer) return;
+                let found = [];
+                tramosLayer.eachLayer(l => {
+                    if (l.feature.properties.name.toLowerCase().includes(term)) found.push(l);
+                });
+                if (found.length > 0) map.flyToBounds(L.featureGroup(found).getBounds(), { padding: [100, 100], duration: 1.5 });
+            }
+        });
+
+        // Photo Modal Logic
+        const photoModal = document.getElementById('photo-modal');
+        const modalImg = document.getElementById('modal-img');
+        const modalCaption = document.getElementById('modal-caption');
+
+        document.getElementById('photos-container').onclick = (e) => {
+            const card = e.target.closest('.photo-card');
+            if (card) {
+                modalImg.src = card.dataset.fullImg;
+                modalCaption.innerText = card.dataset.caption || "";
+                photoModal.style.display = 'flex';
+            }
+        };
+
+        document.getElementById('close-modal').onclick = () => photoModal.style.display = 'none';
+        photoModal.onclick = (e) => { if (e.target === photoModal) photoModal.style.display = 'none'; };
+    </script>
+</body>
+
+</html>

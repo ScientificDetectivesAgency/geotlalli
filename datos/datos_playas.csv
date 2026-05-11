@@ -1,0 +1,1850 @@
+id;nombre_tramo;coord_init;coord_final;long;tipo_geomorfo;subtipo_detallado;tipo_playa;nivel_energia;dir_dominante;mag_estimada;fuentes_sedimento;sumideros_sedimento;balance_sedimentario;est_costeras;ev_erosion;influ_arrecifal;influ_manglar;pres_antropic;conectividad ;incertidumbre;tipo_soporte
+QR-I-00-01;"Límite Yucatán – Chiquilá
+(costa continental N, frente a Holbox W)";21.489535°N, 87.534909°W;21.4425°N, 87.4365°W;10;Costa acumulativa;"Playa abierta baja; arena fina carbonatada; dunas embrionarias; orientación E-W; sin desarrollo";Abierta;Bajo;"E?W (neto; INVERTIDO respecto al resto de costa N Yucatán)
+Appendini et al. 2012: 'except west of Holbox, where longshore transport direction is inverted'
+Este tramo está en la zona de inversión documentada
+Brisas marinas del E generan oleaje oblicuo pero en esta zona el transporte se invierte a E?W
+Nortes (N-NW): componente estacional adicional";"EVIDENCIA REGIONAL: Appendini et al. 2012 reporta transporte neto westward de 20,000–80,000 m³/año para toda la costa N de Yucatán, EXCEPTO al oeste de Holbox donde se invierte.
+Este tramo está en la zona de inversión ? magnitud probablemente menor que el rango regional.
+Estimación indirecta en un groin y un puerto: ~35,000 m³/año (Appendini et al. 2012).
+
+Mecanismo (CERC cualitativo): K=0.39; brisas marinas del E generan oleaje oblicuo (? ~15–25°) sobre costa W-E; Hb ~0.5–0.8 m.
+Nota: los parámetros CERC explican la dirección y el mecanismo, pero la magnitud anual requiere integración sobre el clima de oleaje completo como hizo Appendini et al. 2012 con LITDRIFT.";"Bioproducción plataforma; aporte eólico; transporte desde Yucatán";"Plataforma somera; transporte E hacia Holbox";"Sin datos cuantitativos.
+Zona de inversión del transporte documentada (Appendini et al. 2012) ? gradientes de transporte inciertos; no es posible inferir balance sin modelación";"Sin estructuras costeras documentadas en la zona continental frente a Holbox W.
+Costa natural sin intervención ingenieril.";"Sin datos cuantitativos; costa natural sin intervención";Nula;"Manglar costero; humedales back-barrier";"Baja; sin desarrollo significativo";Abierto;Alta;INTERPRETACIÓN: transporte W?E basado en Appendini et al. 2012 (doi:10.2112/JCOASTRES-D-11-00162.1). Sin estudios específicos.
+QR-I-00-02;"Chiquilá – Boca Conil
+(frente a Bahía de Holbox)";21.4425°N, 87.4365°W;21.4720°N, 87.3160°W;10;Sistema lagunar;"Costa lagunar continental;
+manglar dominante;
+frente a Bahía de Holbox (Lag. Yalahau);
+boca Conil divide costa";N/A (lagunar);Muy bajo;"Mareal; circulación estuarina";"N/A (sistema lagunar).
+Bahía de Holbox: circulación mareal por boca Conil; sin oleaje significativo.
+Transporte litoral no aplica.";"Aportes de manglar (materia orgánica, sedimento fino);
+bioproducción lagunar;
+escorrentía superficial (limitada por karst)";"Bahía de Holbox (sedimentación); manglar (retención)";Sumidero neto;"Muelle de embarcaciones en Chiquilá (ferries a Holbox).
+Estructura perpendicular a costa; por estar en laguna protegida, influencia mínima en transporte litoral oceánico.
+Posible efecto local en circulación lagunar.";"Sedimentación fangosa; sin datos cuantitativos";Nula;"Manglar dominante; RB Yum Balam; flamencos";"Puerto Chiquilá (ferries a Holbox);
+contaminación por lanchas
+SGD (descarga agua subterránea): vía de transporte de nutrientes y contaminantes disueltos al mar (Zona Fractura Holbox)";Semi-cerrado;Alta;INTERPRETACIÓN: sistema lagunar por posición back-barrier. SGD regional: EVIDENCIA (Hernández-Terrones et al. 2015, doi:10.1016/j.csr.2015.04.015)
+QR-I-00-03;"Boca Conil – Cabo Catoche
+(costa continental NE)";21.4720°N, 87.3160°W;21.604865°N, 87.102868°W;30;Costa acumulativa;"Costa acumulativa transitando a erosiva;
+Cabo Catoche = promontorio con forma triangular hacia el mar;
+cara W: erosión documentada con espigones descolgados (quedaron dentro del agua);
+desplazamiento de sedimentos hacia el W visible en acumulaciones;
+cara E: transición hacia régimen Caribe;
+NO es convergencia de dos oleajes formando cuspate foreland — la forma triangular
+se explica por retroceso erosivo de la cara W";Abierta;Bajo-Medio;"E?W (neto en cara N, consistente con Appendini et al. 2012)
+Cara W: erosión con retroceso; espigones descolgados = evidencia de pérdida costera;
+sedimentos desplazados hacia el W formando acumulaciones
+Cabo Catoche: punto de transición Golfo?Caribe, pero la morfología triangular
+NO se debe a convergencia de oleaje, sino a erosión diferencial de la cara W";"EVIDENCIA: 20,000–80,000 m³/año neto westward (Appendini et al. 2012).
+Este tramo incluye la costa más oriental de la zona norte ? energía de oleaje mayor por estrechamiento de plataforma continental (Appendini et al. 2012) ? probable rango superior.
+Cabo Catoche = transición ? magnitud decrece hacia punto de cambio de régimen.
+
+Mecanismo: brisas marinas del E (? ~15–30°); Hb crece hacia el E por menor ancho de plataforma.";"Bioproducción; transporte litoral; erosión plataforma";"Offshore; Cabo Catoche (divergencia)";"Sin datos cuantitativos.
+Cabo Catoche = transición entre regímenes ? gradientes de transporte complejos; balance indeterminado sin modelación local";"ESPIGONES en Cabo Catoche (cara W):
+— Espigones construidos como protección costera
+— Actualmente DESCOLGADOS (quedaron dentro del agua por retroceso costero)
+— Evidencia directa de retroceso significativo de la línea de costa
+— Acumulaciones de arena hacia el W (updrift) visibles, consistentes con transporte E?W
+— Cara W erosionada: los espigones no detuvieron la pérdida
+(Observación de campo / imágenes satelitales)";"Erosión en cara W de Cabo Catoche:
+— Espigones construidos para protección quedaron descolgados dentro del agua = retroceso costero
+— Acumulaciones de sedimento hacia el W consistentes con transporte E?W
+— Forma triangular resultado de erosión diferencial, no de acumulación convergente";Baja;"Manglar costero; pastos marinos plataforma";"Baja; pesca artesanal; turismo incipiente (tiburón ballena)";Abierto;Alta;INTERPRETACIÓN: Cabo Catoche como divisoria basado en cambio orientación costera (Appendini et al. 2012, doi:10.2112/JCOASTRES-D-11-00162.1)
+QR-I-a-01;Punta Cocos (flecha terminal W);21.5235°N, 87.3930°W;21.5310°N, 87.3750°W;3,5;Costa acumulativa;"Flecha arenosa terminal W; arena fina carbonatada; bioluminiscencia; Punta Cocos lagoon; progradación activa";Abierta (flecha);Bajo;"E?W (neto; convergente en Pta. Cocos)
+Transporte litoral E?W a lo largo de costa N de Holbox
+Sedimento se acumula en extremo W ? flecha Pta. Cocos prograda hacia W
+Consistente con Appendini et al. 2012: transporte westward en costa N";"EVIDENCIA REGIONAL: 20,000–80,000 m³/año westward en costa N (Appendini et al. 2012).
+Flecha Pta. Cocos progradando hacia W = evidencia geomorfológica de acumulación por transporte E?W.
+Magnitud específica de Holbox: no publicada; isla barrera angosta puede tener tasas diferentes que costa continental por diferencias de batimetría y fetch.
+
+Mecanismo: brisas del E; ? ~15–25° sobre costa W-E; Hb ~0.5–0.8 m.";"Bioproducción; transporte desde W";"Punta Cocos (flecha progradante); offshore durante nortes";"Históricamente positivo (flecha progradante hacia W).
+POSIBLE REDUCCIÓN: campo de 20 espigones en QR-I-a-02 (updrift)
+retiene arena del transporte E?W ? menor aporte a la flecha.
+Sin datos cuantitativos pre- y post-espigones para confirmar.
+Balance actual: indeterminado; requiere monitoreo de la tasa
+de progradación de Pta. Cocos vs. registros históricos.";"Sin estructuras costeras.
+Flecha natural de Pta. Cocos sin intervención.";"Acreción en Pta. Cocos (flecha progradante); sin tasas cuantitativas";Nula;"Manglar extenso lado S; RB Yum Balam; bioluminiscencia";"Turismo creciente; restaurantes de playa; sin infraestructura permanente";"ALERTA: campo de ~20 espigones de bolsacreto en tramo updrift (QR-I-a-02)
+retiene arena del transporte E?W que alimenta esta flecha.
+Posible déficit sedimentario inducido por estructuras aguas arriba.
+Monitoreo de tasa de progradación de Pta. Cocos recomendado
+para detectar si los espigones están reduciendo el aporte.";Alta;INTERPRETACIÓN: flecha terminal inferida de morfología en planta. Isla barrera ~42 km, 1.5 km ancho (Wikipedia Holbox)
+QR-I-a-02;"Playa Norte Holbox
+(pueblo – zona turística principal)";21.5310°N, 87.3750°W;21.5440°N, 87.3430°W;4,5;Costa acumulativa;"Playa abierta sin arrecife; arena fina-media carbonatada; dunas bajas (<2 m); Playa Norte = principal playa turística; aguas someras";Abierta;Bajo-Medio;"E?W (neto)
+Brisas marinas del E: agente principal de transporte (Appendini et al. 2012)
+Nortes (N-NW): inversión temporal
+Neto anual: westward (E?W)";"EVIDENCIA REGIONAL: 20,000–80,000 m³/año westward (Appendini et al. 2012).
+Magnitud específica Holbox: no publicada.
+
+Mecanismo: brisas del E; ? ~15–25°; Hb ~0.5–0.8 m.";"Bioproducción; erosión playa-duna; transporte litoral desde W";"Campo de espigones actúa como trampa sedimentaria secuencial;
+retiene arena que alimentaría Pta. Cocos (downdrift terminal);
+offshore durante nortes";"Sin datos cuantitativos de balance neto del tramo.
+Campo de espigones genera redistribución local (suma cero):
+lo que gana un sector updrift lo pierde el sector downdrift.
+El efecto NETO del campo sobre el tramo completo es probablemente
+negativo para Pta. Cocos (downdrift terminal) porque los espigones
+retienen arena que de otra forma alimentaría la flecha.
+Balance: indeterminado cuantitativamente; probable déficit en
+extremo W (Pta. Cocos) por retención en campo de espigones";"CAMPO DE ESPIGONES DE BOLSACRETO (observación de campo):
+— ~20 espigones de bolsacreto (sacos de geotextil rellenos de mortero)
+— Separación: 60–100 m entre espigones
+— Longitud promedio: ~50 m (perpendiculares a costa)
+— Material: bolsacreto (geotextil + mortero)
+— Orientación: perpendicular a línea de costa (N-facing)
+
+EFECTO OBSERVADO EN TRANSPORTE (campo):
+— Cara E (barlovento/updrift): avance de línea de costa de 6–10 m
+   ? acumulación de arena consistente con transporte E?W
+— Cara W (sotavento/downdrift): retroceso similar de 6–10 m
+   ? déficit por interrupción del transporte
+— Patrón en DIENTE DE SIERRA a lo largo de la playa
+— Redistribución neta ? 0: los espigones no crean arena nueva,
+   solo la redistribuyen, generando ganancia updrift = pérdida downdrift
+
+COHERENCIA CON TRANSPORTE DOCUMENTADO:
+SÍ: acumulación en cara E y erosión en cara W es 100% consistente
+con transporte neto E?W por brisas marinas (Appendini et al. 2012)
+
+EVALUACIÓN PRELIMINAR:
+— 20 espigones en ~1.5 km de playa = intervención masiva en isla barrera frágil
+— Suma cero: benefician a un hotel a costa del hotel vecino downdrift
+— El último espigón (más al W) genera déficit sin compensación
+   en Pta. Cocos (flecha natural)
+— En isla barrera con transporte E?W documentado, campo de espigones
+   interrumpe el flujo sedimentario que alimenta Pta. Cocos
+— Requiere evaluación de permisos (MIA, ZOFEMAT)";"Patrón en diente de sierra (campo):
+— Avance 6–10 m en cara E (updrift) de cada espigón
+— Retroceso 6–10 m en cara W (downdrift) de cada espigón
+— Balance neto del campo: redistribución sin ganancia neta
+— Consistente con transporte E?W (Appendini et al. 2012)
+— Sin tasas cuantitativas de largo plazo publicadas";Nula;"Manglar lado S (bahía); pastos marinos someros";"Alta; >363,000 visitantes 2024; hoteles primera línea; sin PTAR; golf carts";Abierto;Alta;INTERPRETACIÓN: transporte W?E inferido de orientación E-W y oleaje dominante E-SE (Appendini et al. 2012). Turismo: EVIDENCIA (Grokipedia 2026)
+QR-I-a-03;Holbox pueblo E – Punta Mosquito;21.5440°N, 87.3430°W;21.5355°N, 87.2775°W;8;Costa acumulativa;"Playa abierta baja; transición turística ? salvaje; arena fina; dunas bajas; kiteboarding";Abierta;Medio;"E?W (neto)
+Brisas marinas: transporte E?W
+Nortes: inversión temporal";"EVIDENCIA REGIONAL: 20,000–80,000 m³/año westward (Appendini et al. 2012).
+Magnitud específica: no publicada.
+
+Mecanismo: brisas del E; ? ~15–25°; Hb ~0.5–0.8 m.";"Bioproducción; transporte desde W";"Transporte E hacia Pta. Mosquito; offshore";"Sin datos cuantitativos.
+Zona de transición turística ? natural; sin evidencia geomorfológica clara de tendencia.
+Balance: indeterminado";"Muelles artesanales de madera en pueblo de Holbox.
+Estructuras ligeras, permeables; sin influencia significativa en transporte.
+Muelle principal de ferries: estructura mayor pero perpendicular a costa en zona protegida.";"Sin datos; zona de transición";Nula;Manglar lado S;"Moderada decreciente hacia E; kiteboarding";Abierto;Alta;INTERPRETACIÓN: clasificación basada en posición y orientación
+QR-I-a-04;"Punta Mosquito
+(flecha arenosa + hábitat flamencos)";21.5355°N, 87.2775°W;21.5290°N, 87.2560°W;2,5;Costa acumulativa;"Flecha arenosa; laguna somera detrás; hábitat estacional flamencos (Phoenicopterus ruber); arena fina; progradación";Abierta (flecha);Medio;"E?W; convergencia en punta
+Transporte E?W deposita sedimento formando flecha
+Pta. Mosquito = flecha progradante consistente con transporte westward";"EVIDENCIA REGIONAL: 20,000–80,000 m³/año (Appendini et al. 2012).
+Flecha Pta. Mosquito progradando = evidencia geomorfológica de acumulación.
+Magnitud específica: no publicada.
+
+Mecanismo: convergencia por transporte E?W.";"Transporte litoral desde W; bioproducción";"Laguna somera (sumidero parcial); offshore";Ligeramente positivo (progradación punta);"Sin estructuras costeras.
+Pta. Mosquito = flecha natural sin intervención.";"Sin datos; progradación inferida de morfología";Nula;"Laguna somera hábitat flamencos; pastos marinos; RB Yum Balam";"Baja; acceso solo golf cart; observación aves";Semi-cerrado (laguna);Alta;INTERPRETACIÓN: flecha y laguna por morfología en planta
+QR-I-a-05;Pta. Mosquito – extremo E Holbox;21.5290°N, 87.2560°W;21.4960°N, 87.1420°W;13;Costa acumulativa;"Playa abierta baja sin berma permanente; sistema barrera angosta; playas salvajes; 75% isla = manglar + playas vacías; sin desarrollo";Abierta;Medio;"E?W (neto)
+Brisas marinas: transporte E?W
+Extremo E = zona de mayor erosión (fuente de sedimento para transporte westward)";"EVIDENCIA REGIONAL: 20,000–80,000 m³/año (Appendini et al. 2012).
+Extremo E de isla barrera = zona fuente.
+Magnitud específica: no publicada.
+
+Mecanismo: brisas del E; Hb probablemente mayor en extremo E (más expuesto); ? ~15–25°.";"Bioproducción; transporte desde W; erosión eolianitas";"Extremo E isla (pérdida offshore); boca Conil";"Sin datos cuantitativos.
+Extremo E de isla barrera = zona fuente de sedimento para transporte E?W ? probable déficit local.
+Geomorfología (barrera angosta, sin berma permanente) sugiere balance ligeramente negativo, pero no cuantificable";"Sin estructuras costeras documentadas.
+Extremo E de isla barrera; zona natural.";"Sin datos cuantitativos; probable retroceso estacional flancos expuestos a nortes";Nula;"Manglar dominante lado S; RB Yum Balam";"Mínima; sin acceso; sin desarrollo";Abierto;Alta;INTERPRETACIÓN: 75% manglar EVIDENCIA (Wikipedia Holbox)
+QR-I-a-06;"Costa S Holbox
+(Bahía de Holbox / Lag. Yalahau)";21.5180°N, 87.3800°W;21.4960°N, 87.1550°W;26;Sistema lagunar;"Laguna de barrera (back-barrier); Bahía de Holbox; prof. media <2 m; boca Conil = inlet principal; SGD vía Zona Fractura Holbox; manglar extenso";N/A (lagunar);Muy bajo;"Circulación estuarina; flujo mareal";"N/A (sistema lagunar).
+Bahía de Holbox (back-barrier): circulación mareal y estuarina.
+Transporte litoral no aplica; dominan procesos de sedimentación fina y flujos lagunares.";"Aportes de manglar (materia orgánica, sedimento fino);
+bioproducción lagunar (Thalassia, algas);
+overwash desde costa N durante tormentas";"Boca Conil (exportación); sedimentación fondos";Sumidero neto (acumulación fangosa);"Muelles artesanales en costa lagunar de Holbox.
+Sistema lagunar: sin relevancia para transporte litoral oceánico.";"Sedimentación fangosa dominante; sin datos de erosión/acreción costera cuantitativos";Nula;"Manglar extenso; Thalassia; RB Yum Balam; flamencos, tortugas";"Contaminación SGD; deficiencias saneamiento; TRIX medido en inlets indicando enriquecimiento nutrientes (Rubio-Cisneros et al. 2018, doi:10.1016/j.rsma.2018.06.003)
+Metales en Thalassia: Fe >400 µg/g, Cd >4 µg/g (Avelar et al. 2013, doi:10.1007/s10661-013-3121-7)";Semi-cerrado (boca Conil);Media;"EVIDENCIA: metales en Thalassia (Avelar et al. 2013, doi:10.1007/s10661-013-3121-7); TRIX en inlets (Rubio-Cisneros et al. 2018, doi:10.1016/j.rsma.2018.06.003); SGD (Hernández-Terrones et al. 2015, doi:10.1016/j.csr.2015.04.015)"
+QR-I-b-01;Costa W Contoy (sotavento);21.5150°N, 86.8020°W;21.4720°N, 86.7985°W;4;Costa acumulativa;"Playa cerrada (pocket beach) con manglar posterior;
+arena fina carbonatada;
+baja energía;
+PN desde 1998";Cerrada (apoyada);Bajo;"Variable (zona transición Golfo-Caribe)
+Contoy está en la transición entre régimen westward (costa N) y southward (costa E)
+Costa W (sotavento): protegida; corrientes locales dominan";"Sin datos publicados de transporte para Isla Contoy.
+Appendini et al. 2012 no incluye islas offshore.
+
+Mecanismo (CERC cualitativo): K=0.39; Hb ~0.3–0.6 m (sotavento + arrecife Ixlaché); ? ~5–15° (variable por posición transicional).
+Corrientes del Canal de Yucatán pueden dominar sobre oleaje como agente de transporte.";"Bioproducción arrecifal; transporte residual";"Fondos someros; manglar";"Sin datos cuantitativos.
+PN sin intervención; sin series históricas de perfiles de playa.
+Balance: indeterminado";"Sin estructuras costeras.
+PN federal; acceso restringido; sin intervención ingenieril.";"Sin datos; PN no intervenido";Media (arrecife Ixlaché cercano);"Manglar extenso; 230 spp. aves; anidación";"Mínima;
+PN federal;
+acceso restringido (200 visitantes/día máx., CONANP)";Semi-cerrado;Alta;INTERPRETACIÓN: clasificación por forma y orientación. PN Contoy: EVIDENCIA (CONANP)
+QR-I-b-02;Costa E Contoy (barlovento);21.5180°N, 86.7920°W;21.4680°N, 86.7870°W;4,5;Costa mixta;"Alternancia erosiva-acumulativa; playa sobre plataforma rocosa; expuesta oleaje E-NE; caliza + arena bioclástica";Abierta (expuesta);Medio;"Variable (zona transición Golfo-Caribe)
+Costa E (barlovento): expuesta a oleaje E-NE
+Ambos regímenes contribuyen; transición hacia régimen Caribe";"Sin datos publicados de transporte para Isla Contoy.
+
+Mecanismo: Hb ~0.5–0.8 m (barlovento E); ? ~10–20°.
+Zona transición Golfo-Caribe.";"Erosión caliza; bioclastos; transporte desde N";"Offshore; transporte S";Ligeramente negativo (erosión caliza);"Sin estructuras costeras.
+PN Isla Contoy; costa natural.";"Erosión moderada flanco E; sin tasas";Media (arrecife Ixlaché);"Manglar interior; aves marinas";Mínima (PN);Abierto;Alta;INTERPRETACIÓN: clasificación por posición y exposición oleaje E-NE
+QR-II-00-01;"Cabo Catoche – Isla Blanca N
+(tramo continental N, sin desarrollo)";21.604865°N, 87.102868°W;21.4230°N, 86.8145°W;20;Costa acumulativa;"Playa abierta baja; orientación NE-SW; transición Golfo-Caribe; arena carbonatada; dunas bajas; manglar back-barrier; sin desarrollo excepto pesca";Abierta;Bajo;"Transición E?W a N?S
+— Sector N (cerca Cabo Catoche): residual del transporte westward (Appendini et al. 2012)
+— Sector S (hacia Costa Mujeres): costa gira a N-S ? alisios E-SE (?=112.5°) empiezan a dominar
+  ? transporte cambia a N?S (régimen Caribe)
+Cabo Catoche = punto de inflexión entre los dos regímenes";"Sin datos publicados específicos para este tramo.
+Appendini et al. 2012 cubre costa N Yucatán (20,000–80,000 m³/año westward) pero este tramo está en la transición hacia régimen Caribe donde el transporte cambia de E?W a N?S.
+Magnitud: indeterminada sin modelación local.
+
+Mecanismo: transición gradual; brisas + alisios; Hb ~0.5–0.8 m; Hs <0.8 m (Escudero-Castillo et al. 2018).";"Bioproducción; transporte litoral desde NW; plataforma yucateca";"Offshore; transporte SE";"Sin datos cuantitativos.
+Costa poco estudiada; transición hidrodinámica gradual.
+No hay evidencia geomorfológica publicada para inferir tendencia.
+Balance: indeterminado";"Sin estructuras costeras documentadas.
+Costa poco desarrollada entre Cabo Catoche e Isla Blanca N.";"Sin datos; costa poco estudiada; transición hidrodinámica gradual";Baja;"Manglar extenso; lagunas costeras; pastos marinos";"Baja; pesca artesanal";Abierto;Alta;INTERPRETACIÓN: Hs <0.8 m EVIDENCIA (Escudero-Castillo et al. 2018, doi:10.1016/j.ocecoaman.2017.06.001)
+QR-II-00-02;"Costa Mujeres N – Boca Iglesias
+(inicio desarrollo costero)";21.4230°N, 86.8145°W;21.3130°N, 86.8105°W;12;Costa acumulativa;"Playa abierta;
+orientación N-S consolidándose;
+arena carbonatada;
+dunas bajas;
+manglar fragmentado por desarrollo";Abierta;Bajo-Medio;"N?S (régimen alisios E-SE consolidado)
+Costa ya orientada N-S ? oleaje ESE (?=112.5°) incide oblicuamente
+Nortes: componente secundaria";"Sin datos publicados de transporte para Costa Mujeres.
+Costa ya orientada N-S ? régimen alisios E-SE consolidado.
+Magnitud: indeterminada sin modelación.
+
+Mecanismo: alisios ESE (?=112.5°, Escudero et al. 2022); Hb ~0.6–0.8 m; ? ~15–25° sobre costa N-S.";"Bioproducción; transporte litoral desde N";"Transporte S; lagunas costeras";"Sin datos cuantitativos pre-desarrollo.
+Desarrollo reciente Costa Mujeres puede estar alterando el balance, pero sin línea base histórica no es posible cuantificar.
+Balance: indeterminado (probable alteración por desarrollo)";"Desarrollo Costa Mujeres en construcción/reciente.
+Muros de contención y rampas de hoteles sobre primera línea.
+No se documentan espigones ni diques exentos.
+Infraestructura sobre duna costera actúa como barrera al intercambio playa-duna.
+Influencia: interrupción del transporte eólico; posible reflexión de oleaje en muros.";"Sin tasas; erosión incipiente posible por desarrollo reciente";Baja;Manglar fragmentado por desarrollo;"Alta creciente;
+megadesarrollos Costa Mujeres (hoteles all-inclusive);
+remoción manglar";Abierto;Alta;INTERPRETACIÓN: clasificación basada en posición geográfica y desarrollo reciente
+QR-II-a-01;"Playa Norte I. Mujeres
+(pocket beach principal)";21.2585°N, 86.7485°W;21.2510°N, 86.7410°W;1,2;Costa acumulativa;"Playa cerrada (pocket beach) entre puntas; arena fina carbonatada; aguas calmas; protección parcial del continente; principal atractivo turístico";Cerrada (apoyada);Bajo;"N?S (débil); corriente canal";"Sin datos publicados de transporte para Isla Mujeres.
+Pocket beach confinada ? transporte litoral mínimo por confinamiento lateral.
+
+Mecanismo: Hb ~0.3–0.5 m (baja energía, sotavento); ? ~5–10° (confinamiento reduce ángulo efectivo).";"Bioproducción; erosión eolianitas; transporte residual";"Canal I.Mujeres-continente; fondos someros";"Sin datos cuantitativos.
+Playa Norte históricamente estable (observación cualitativa, sin series temporales publicadas).
+Confinamiento entre puntas limita intercambio ? probable equilibrio dinámico.
+Balance: probablemente cercano a cero (pocket beach confinada), pero no cuantificado";"Muelles artesanales en Playa Norte Isla Mujeres.
+Muelle principal de ferries al sur de la playa: estructura mayor, perpendicular.
+Posible acumulación de arena en cara N del muelle (updrift si transporte es N?S);
+pocket beach confinada ? efecto del muelle limitado por headlands naturales.";Playa estable históricamente;Baja-Media (arrecife Manchones al S);"Sin laguna; eolianitas como sustrato";"Extrema; turismo masivo; ferries cada ~30 min";Semi-cerrado (canal);Media;INTERPRETACIÓN: pocket beach por morfología. Eolianitas: EVIDENCIA (Ward et al. 1970)
+QR-II-a-02;"Costa W I. Mujeres
+(sotavento, pueblo)";21.2510°N, 86.7485°W;21.2090°N, 86.7295°W;3,8;Costa acumulativa;"Playas estrechas apoyadas en sustrato de eolianitas cuaternarias;
+baja energía (sotavento);
+sin plataforma arrecifal frente a costa;
+perfil de playa angosto (<15 m) por proximidad de infraestructura";Apoyada;Bajo;N?S (débil);"Sin datos publicados de transporte.
+Costa W sotavento ? baja energía.
+
+Mecanismo: Hb ~0.3–0.5 m; ? ~5–10°.";"Erosión eolianitas; bioproducción local";"Fondos; canal";"Sin datos cuantitativos.
+Costa W sotavento con playas estrechas pero persistentes.
+Balance: indeterminado; ausencia de erosión visible sugiere equilibrio, pero sin mediciones";"Múltiples muelles de embarcaciones (ferries, lanchas) en costa W de Isla Mujeres.
+Marina de Isla Mujeres.
+Muros costeros en pueblo.
+Influencia: costa W es sotavento de baja energía; estructuras no generan
+acumulaciones significativas porque el transporte litoral ya es mínimo.";Playas W estables;"Media (MUSA; arrecife Manchones)";Sin laguna;"Alta;
+pueblo turístico con infraestructura sobre primera línea costera;
+ferries cada ~30 min;
+marina;
+1,505,643 turistas 2023 (SEDETUR)";Semi-cerrado;Media;INTERPRETACIÓN: clasificación por posición. MUSA: EVIDENCIA (documentación turística oficial)
+QR-II-a-03;"Costa E I. Mujeres
+(barlovento, acantilados)";21.2575°N, 86.7355°W;21.2090°N, 86.7195°W;3,5;Costa erosiva;"Costa acantilada; eolianitas cuaternarias; plataformas de abrasión; acantilados activos; sin playa permanente; SLR 3.6 mm/año";N/A (acantilados);Medio-Alto;"Variable; corrientes canal E";"Mínimo (costa erosiva rígida).
+Acantilados de eolianitas ? sin playa arenosa permanente ? CERC no aplicable.
+Transporte de arena litoral insignificante; dominan fragmentos gravitacionales.";"Erosión acantilados eolianitas; bioclastos";"Offshore; base acantilados";Negativo (erosión neta);"Sin estructuras costeras significativas.
+Costa E de Isla Mujeres = acantilados de eolianitas;
+no hay playa que proteger; sin intervención.";"Erosión activa acantilados costa E; sin tasas cuantitativas de retroceso costero";Media (arrecife somero E);"Sin manglar; eolianitas";"Moderada; circuito turístico Pta. Sur; Garrafón";Abierto;Media;EVIDENCIA: eolianitas (Ward et al. 1970). INTERPRETACIÓN: erosión activa por observación
+QR-II-b-01;"Isla Blanca
+(barra N de Chacmuchuc)";21.3130°N, 86.8105°W;21.2750°N, 86.8075°W;4;Costa acumulativa;"Barra arenosa / flecha litoral;
+arena carbonatada;
+dunas bajas;
+Isla Blanca = barra arenosa elongada N-S con Laguna Chacmuchuc detrás;
+forma depositacional indicadora de transporte litoral;
+manglar fragmentado por desarrollo";Abierta (barrera);Bajo-Medio;N?S;"Sin datos publicados de transporte para Isla Blanca / Costa Mujeres.
+Magnitud: indeterminada.
+
+Mecanismo: alisios ESE sobre costa N-S; Hb ~0.6–0.8 m; ? ~15–25°.";"Transporte litoral desde N; bioproducción";"Lag. Chacmuchuc (overwash); transporte S";"Sin datos cuantitativos.
+Desarrollo reciente puede estar induciendo erosión incipiente (sin línea base).
+Balance: indeterminado (probable tendencia negativa por desarrollo)";"Zona UPDRIFT de Marina Playa Mujeres:
+— Playa notablemente ancha frente a resorts Excellence / Playa Mujeres
+— Acumulación de arena consistente con retención updrift (transporte N?S)
+   por la escollera norte de la marina
+— No se observan espigones ni diques exentos en este tramo
+— Infraestructura hotelera (all-inclusive) sobre primera línea
+
+Influencia: la marina aguas abajo (QR-II-b-02) genera efecto positivo
+paradójico en este tramo — la escollera N retiene arena que de otra forma
+seguiría hacia el S, ensanchando la playa de los resorts updrift.
+
+(Análisis de imagen Google Earth, feb 2024 y mar 2025)";"Playa ancha frente a resorts (~21°14'30""N); ensanchamiento visible
+por acumulación updrift de la escollera N de Marina Playa Mujeres.
+Sin datos cuantitativos de tasas.";Nula;"Lag. Chacmuchuc detrás; manglar fragmentado";"Alta; megadesarrollos; remoción manglar";Semi-cerrado (barra + laguna);Alta;INTERPRETACIÓN: sistema de barrera por morfología (barra + laguna posterior)
+QR-II-b-02;Costa Mujeres – Pto. Juárez;21.2750°N, 86.8075°W;21.1765°N, 86.8130°W;11;Costa acumulativa (intervenida);"Barra / sistema de barrera intervenido; marina Pto. Juárez; terminal ferries I. Mujeres; Lag. Chacmuchuc al W; desarrollo intensivo";Abierta (barrera, intervenida);Bajo-Medio;N?S;"Sin datos publicados de transporte.
+Marina Pto. Juárez actúa como trampa sedimentaria (principio de ingeniería costera) ? el transporte N?S está interrumpido parcialmente.
+Magnitud: indeterminada.
+
+Mecanismo: alisios ESE; Hb ~0.6–0.8 m; ? ~15–25°; marina modifica patrón local.";"Transporte litoral desde N; bioproducción; rellenos";"Marina Playa Mujeres = trampa sedimentaria principal (retiene arena updrift);
+Muelle Punta Sam = trampa parcial;
+offshore durante nortes";"FUERTEMENTE NEGATIVO.
+Marina Playa Mujeres intercepta suministro completo del transporte N?S.
+Evidencia: 3 diques exentos sin hemitómbolo en 20 años; Puerto Juárez
+sin arena (foto campo: lodo y roca, cero arena); rellenos artificiales
+como única fuente de arena (Wellness Clinic 2023?2025).
+Sin relleno artificial, este tramo no tiene suministro sedimentario.";"CADENA DE ESTRUCTURAS N?S — INVENTARIO COMPLETO
+(Análisis Google Earth sept 2023, feb 2024, mar 2025 + fotografías de campo)
+
+??? SECTOR COSTA MUJERES SUR (~21°14'20""–21°13'30""N) ???
+
+1. MARINA PLAYA MUJERES (~21°14'20""N):
+   — Escolleras de marina = BARRERA TOTAL al transporte N?S
+   — Puerto cerrado con dársena interior
+   — Cara N (updrift): playa ancha por acumulación
+   — Cara S (downdrift): déficit severo; playa se estrecha abruptamente
+
+2. DIQUE EXENTO 1 (~21°14'17""N):
+   — Rompeolas exento lineal, ~80–100 m, ~60–80 m offshore
+   — HEMITÓMBOLO INCIPIENTE observado detrás
+   — Función: compensar déficit de marina updrift
+
+3. DIQUE EXENTO 2 en V (~21°14'05""N):
+   — Rompeolas en V abierta (diseño no convencional)
+   — TÓMBOLO COMPLETO — posiblemente RELLENO ARTIFICIAL
+   — Geometría en V maximiza zona de sombra (diseño intencional)
+
+4. MUELLES PUNTA SAM (~21°13'55""N):
+   — Muelle Ultracarga: estructura sólida ~150–200 m = BARRERA PARCIAL
+   — Muelle de ferries adyacente
+
+??? SECTOR WELLNESS / XTABAY (~21°13'10""–21°12'00""N) ???
+
+5. COMPLEJO SMA WELLNESS CLINIC (~21°12'53""N):
+   — Muelles menores sobre PILOTES (permeables)
+   — MUELLE LARGO CON CASETA terminal: tiene GEOTUBO ENMASCARADO
+     debajo de la estructura del muelle. El muelle se construyó encima
+     del geotubo, disfrazando protección costera como infraestructura
+     de acceso. Técnica observada también en Punta Maroma (campo CEGAM).
+   — RELLENO ARTIFICIAL DE PLAYA (sept 2023 ? mar 2025):
+     playa inexistente en sept 2023; presente en mar 2025.
+     Terminación abrupta contra muelle/geotubo = contención lateral.
+   — Implicación regulatoria: posible discrepancia muelle vs. protección costera
+
+6. MARINA PUERTO XTABAY (~21°12'15""N):
+   — CORRECCIÓN: desde satélite parecen escolleras sólidas pero son
+     MUELLES DE MADERA SOBRE PILOTES (confirmado foto campo Google Earth)
+   — En la BASE de los muelles: ESPIGONES OCULTOS de roca/rip-rap
+     cubiertos por la plataforma del muelle
+   — Mismo patrón de enmascaramiento que SMA Wellness
+   — Influencia sobre transporte: MÍNIMA (espigones pequeños + déficit terminal)
+
+7. TRES DIQUES EXENTOS (~21°12'00""–21°12'10""N):
+   — 3 estructuras cortas (~20–30 m), perpendiculares, cerca de costa
+   — Presentes >20 AÑOS (serie temporal Google Earth completa)
+   — SIN EFECTO EN LÍNEA DE COSTA: cero hemitómbolos en 20+ años
+   — FALLARON: sin suministro sedimentario no hay arena para depositar
+   — Caso textbook: estructuras duras sin considerar balance = inversión inútil
+
+??? SECTOR PUERTO JUÁREZ (~21°11'50""–21°10'50""N) ???
+
+8. MURO QUINTAS DEL MAR / VILLAS MIRAMAR (~21°11'45""N):
+   — Muro de mampostería/concreto DIRECTAMENTE SOBRE EL MAR
+   — Confirmado por foto de campo: muro rojo que sobresale como
+     headland artificial; socavación visible en base
+   — NO hay playa frente a estas propiedades
+   — El muro refleja oleaje hacia playa adyacente (Playa del Niño/Playa Blanca)
+   — Funciona como espigón/headland: bloquea paso de arena N?S
+   — Probablemente IRREGULAR en ZOFEMAT: propiedad privada
+     construida sobre zona federal marítimo terrestre
+
+9. PLAYA DEL NIÑO / PLAYA BLANCA (~21°11'35""N):
+   — Única sección con playa funcional en todo Puerto Juárez
+   — Playa existe en zona de sombra/sotavento del muro de Quintas del Mar
+   — Muelles artesanales de madera (Catamarán Fragata, Pacho's Tours)
+   — Playa de uso público local (familias, bañistas)
+   — Ancho de playa modesto pero presente
+
+10. FRENTE URBANO PUERTO JUÁREZ (~21°11'10""–21°11'25""N):
+    — Trama urbana densa; construcciones sobre línea costera
+    — Muros de casas/hoteles pequeños DIRECTAMENTE EN EL AGUA
+    — Foto de campo (desde muelle N mirando costa): confirma propiedades
+      construidas sobre el mar; muros de mampostería, escaleras al agua,
+      palapas sobre pilotes dentro del mar
+    — Sustrato visible: roca caliza/eolianitas; ARENA PRÁCTICAMENTE AUSENTE
+    — No hay buffer sedimentario: oleaje rompe contra muros de casas
+    — Múltiples muelles artesanales de madera/concreto perpendiculares
+    — Asentamiento anterior al desarrollo turístico; creció sin planificación
+
+11. MUELLE DE FERRIES PUERTO JUÁREZ (~21°10'55""N):
+    — Terminal de ferries a Isla Mujeres: estructura de concreto ~250–300 m
+    — BARRERA SIGNIFICATIVA al transporte N?S (estructura sólida pesada)
+    — Ferry visible en imagen satelital (barco blanco atracado)
+    — Foto campo (muelle sur): muelle de concreto pesado con barcos
+      camaroneros; ribera SIN ARENA — solo lodo, materia orgánica, sargazo,
+      vegetación rastrera llegando al agua
+    — Confirma DÉFICIT TOTAL: sistema completamente desprovisto de arena
+
+12. CLUB NÁUTICO / NAVARRO (~21°10'50""N):
+    — Última estructura antes de Puerto Cancún (QR-II-c-01)
+    — Costa estrecha; transición hacia marina Puerto Cancún
+
+??? DIAGNÓSTICO INTEGRAL DEL TRAMO ???
+
+CADENA COMPLETA DE DÉFICIT N?S (12 elementos en ~4 km):
+Marina Playa Mujeres (barrera total) ?
+  Dique 1 (hemitómbolo) ? Dique 2 en V (tómbolo/relleno) ?
+    Muelle Punta Sam (barrera parcial) ?
+      Relleno + geotubo oculto Wellness (compensación local) ?
+        Marina Xtabay (espigones ocultos, efecto mínimo) ?
+          3 diques exentos (INEFICACES, 20 años sin hemitómbolo) ?
+            Muro Quintas del Mar (headland artificial) ?
+              Puerto Juárez (CERO ARENA, construcciones en el mar) ?
+                Muelle ferries (barrera, confirmación déficit total) ?
+                  ? Puerto Cancún (QR-II-c-01)
+
+HALLAZGOS CLAVE PARA LINEAMIENTOS:
+1. Estructuras duras sin suministro sedimentario = inversión inútil (3 diques, 20 años)
+2. Enmascaramiento recurrente: geotubos bajo muelles (Wellness, Xtabay, Maroma)
+3. Construcción sobre ZOFEMAT: muros privados dentro del mar (Quintas del Mar, Pto. Juárez)
+4. Relleno artificial como respuesta al déficit, no solución estructural (Wellness)
+5. Déficit se propaga downdrift: cada intervención local desplaza el problema al vecino
+
+COHERENCIA CON TRANSPORTE:
+SÍ: déficit creciente N?S 100% consistente con transporte N?S (alisios ESE ?=112.5°).
+La ineficacia de los 3 diques y la ausencia total de arena en Puerto Juárez
+CONFIRMAN que la marina de Playa Mujeres intercepta el suministro completo.";"EVIDENCIA EROSIÓN/ACRECIÓN — SÍNTESIS MULTIFUENTE:
+
+Google Earth serie temporal (sept 2023, feb 2024, mar 2025):
+— Playa ancha al N de Marina Playa Mujeres (acumulación updrift)
+— Estrechamiento abrupto al S (déficit downdrift)
+— Hemitómbolo detrás Dique 1; tómbolo detrás Dique 2 en V
+— SMA Wellness: playa creada entre 2023 y 2025 (relleno artificial confirmado)
+— 3 diques exentos: CERO hemitómbolo en 20+ años de existencia
+— Puerto Juárez: construcciones sobre el mar; playa inexistente
+
+Fotografías de campo (Google Earth, usuarios):
+— Muro rojo Quintas del Mar: directamente en el agua, socavación en base
+— Marina Xtabay: muelles sobre pilotes con espigones ocultos en base
+— Muelle S Puerto Juárez: ribera sin arena; lodo, sargazo, vegetación al agua
+— Desde muelle N: propiedades sobre el mar, muros como línea de costa,
+  palapas sobre pilotes en el agua, sustrato calizo sin arena
+
+Diagnóstico: DÉFICIT TOTAL confirmado por múltiples fuentes.
+Arena ausente en los últimos ~2 km del tramo (Xtabay ? Pto. Juárez).";Nula;"Lag. Chacmuchuc al W; manglar residual";"Extrema; marina; ferries; hoteles; desarrollo masivo";"Conectividad N?S COMPLETAMENTE INTERRUMPIDA:
+— 12 estructuras en ~4 km interceptan secuencialmente el transporte
+— Marina Playa Mujeres = barrera principal (inicio de la cadena)
+— Muelle ferries Pto. Juárez = barrera terminal
+— Puerto Cancún (QR-II-c-01) recibe CERO aporte sedimentario
+  desde este tramo
+— La costa W-E de Cancún Norte (QR-II-c) depende exclusivamente
+  de brisas y nortes, sin contribución del transporte N?S";Alta;INTERPRETACIÓN: marina como trampa sedimentaria por principios ingeniería costera
+QR-II-c-01;Puerto Cancún – Playa Langosta;21.1765°N, 86.8130°W;21.1430°N, 86.7975°W;2;Costa acumulativa (intervenida);"Playa abierta sin arrecife; marina Pto. Cancún = barrera artificial W; canales; golf; orientación W-E (costa mira al NORTE); protección parcial de I. Mujeres contra oleaje NE; en sombra del oleaje E-SE por la propia isla barrera N-S + Pta. Cancún";Abierta (intervenida);Medio;"Bidireccional estacional:
+— Brisas marinas del E (may–oct): oleaje del E incide oblicuamente ? transporte E?W
+— Nortes (nov–abr): oleaje N-NW frontal ? transporte variable / inversión
+— Neto anual: probablemente E?W (consistente con régimen westward documentado al N)
+— Pta. Cancún al E actúa como barrera para oleaje ESE del Caribe";"Sin datos publicados de transporte específicos para este tramo.
+Costa W-E en sombra del oleaje ESE ? régimen dominado por brisas y nortes.
+Puerto Cancún (marina) interrumpe transporte desde QR-II.
+Magnitud: indeterminada.
+
+Mecanismo: brisas del E (? ~15–25°) + nortes N-NW (? ~15–25°, estacional).";"Rellenos artificiales; transporte residual";"Pto. Cancún marina (trampa); offshore nortes; Lag. Nichupté (bocas)";Negativo (déficit por infraestructura);"ESTRUCTURAS COSTERAS — QR-II-c-01
+(Google Earth mar 2025 + serie temporal 2019-2025 + fotos campo)
+
+??? PUERTO CANCÚN (~21°09'30""–21°10'10""N) ???
+
+1. ESCOLLERAS DE MARINA PUERTO CANCÚN:
+   — Escolleras masivas con ACCROPODES (bloques prefabricados de concreto
+     de alta resistencia, diseño de entrelazamiento para disipación de energía)
+   — Ingeniería costera de primer nivel (foto campo confirma accropodes)
+   — Escollera N: barrera terminal del transporte N?S de QR-II-b-02
+     (Puerto Cancún no recibe aporte sedimentario del norte)
+   — Escollera S/W: protege la costa W-E de QR-II-c-01
+
+2. SEIS ROMPEOLAS EXENTOS (Diques 1-6):
+   — Diques 1-5: construidos entre nov 2019 y jul 2020
+     (NO existían en nov 2019; aparecen en jul 2020)
+   — Dique 6: forma en V abierta, construido ~2019;
+     similar al de Costa Mujeres (QR-II-b-02)
+   — Distribución a lo largo de ~800-900 m de costa
+   — Construidos JUNTO CON relleno artificial de playa
+     = intervención integrada (diques + arena)
+   — RESULTADO: arena estable después de 5 AÑOS (2020-2025)
+   — Los rompeolas reducen energía suficiente para retener el relleno
+   — CONTRASTE CON QR-II-b-02: los 3 diques sin arena = 20 años sin efecto;
+     aquí los 6 diques CON arena = 5 años de éxito.
+     LECCIÓN: diques exentos + suministro de arena = funciona;
+     diques exentos sin arena = inversión inútil
+
+??? COSTA W-E RESIDENCIAL (~21°09'10""–21°10'N) ???
+
+3. MÚLTIPLES MUELLES DE MADERA SOBRE PILOTES:
+   — 10-12 muelles visibles a lo largo de la costa residencial
+   — Permeables (madera sobre pilotes); influencia individual mínima
+   — Densidad alta ? efecto acumulativo posible
+
+4. GEOTUBOS LONGITUDINALES (paralelos a costa):
+   — Geotubos funcionando como MURO SUMERGIDO longitudinal
+   — Foto campo: profundización visible del lado mar (hombre con motos
+     acuáticas en agua profunda justo detrás del geotubo)
+   — REFLEXIÓN DEL OLEAJE confirmada: socavación en base del lado mar
+   — Efecto CONTRAPRODUCENTE: en costa de baja energía natural,
+     los geotubos longitudinales amplifican la energía localmente
+   — No retienen arena; aceleran pérdida del perfil submarino
+
+5. MARINAS Las Perlas y Chac Chi:
+   — Barreras parciales en extremos del tramo residencial
+
+6. DINÁMICA NATURAL — BAJA ENERGÍA:
+   — Foto campo: pendiente de playa muy suave; pastos marinos
+     cerca de la costa = indicador de baja energía persistente
+   — Costa W-E mirando al N: protegida del oleaje ESE del Caribe
+   — Régimen: brisas del E (oblicuas, atenuadas) + nortes (estacionales)
+
+EVALUACIÓN:
+— Puerto Cancún: intervención bien diseñada (accropodes + diques + relleno)
+— Costa residencial: geotubos longitudinales contraproducentes;
+  muelles sobre pilotes aceptables; baja energía natural no requiere
+  protección dura";"EVIDENCIA:
+— Relleno artificial Puerto Cancún (2019-2020): estable 5 años
+— Geotubos longitudinales: socavación por reflexión (foto campo)
+— Pastos marinos cerca de costa: baja energía natural confirmada
+— Sin datos cuantitativos de tasas de erosión/acreción";Nula;"Lag. Nichupté al S; Canal Sigfrido";"Extrema; Puerto Cancún 800 acres; marina; hoteles";Semi-cerrado (marina + laguna);Media;EVIDENCIA: orientación W-E (Silva et al. 2017, doi:10.1680/jmaen.2016.13). INTERP.: Pto. Cancún como barrera
+QR-II-c-02;Playa Langosta – Playa Tortugas;21.1430°N, 86.7975°W;21.1390°N, 86.7880°W;1,2;Costa acumulativa (intervenida);"Playa abierta sin arrecife;
+orientación W-E (costa mira al NORTE);
+menor protección de I. Mujeres que tramo W;
+en sombra del E-SE por isla barrera + Pta. Cancún;
+espigones y geotubos";Abierta (intervenida);Medio;"Bidireccional estacional:
+— Brisas del E: transporte E?W (dominante en verano)
+— Nortes: transporte variable (dominante en invierno)
+— Neto: E?W probable";"Sin datos publicados de transporte específicos.
+Protección parcial de I. Mujeres documentada (Escudero-Castillo et al. 2018) ? menor energía que sección N-S.
+Magnitud: indeterminada.
+
+Mecanismo: brisas E + nortes; Hb ~0.6–0.8 m.";"Rellenos 2006 + 2010; transporte litoral";"Offshore; Pta. Cancún (divergencia)";Negativo crónico;"ESTRUCTURAS COSTERAS — QR-II-c-02
+(Google Earth mar 2025 + fotos campo)
+
+ALTA DENSIDAD DE ESTRUCTURAS ENMASCARADAS:
+
+1. ESPIGÓN 1 ENMASCARADO debajo de muelle (~21°09'10""N):
+   — Estructura impermeable oculta bajo plataforma de muelle
+   — Desde satélite: parece muelle. Desde campo: espigón debajo
+
+2. DIQUE 1 ENMASCARADO debajo de muelle:
+   — EVIDENCIA DIRECTA: está generando un TÓMBOLO
+   — Si fuera solo muelle permeable, no habría tómbolo
+   — El tómbolo delata la función real de la estructura
+   — Foto campo: playa curva formando bahía artificial = zona de sombra
+
+3. ESPIGÓN 2 ENMASCARADO debajo de muelle:
+   — Mismo patrón que espigón 1
+
+4. ESPIGÓN DE GEOTUBOS perpendicular:
+   — Geotubos funcionando como espigón (perpendicular a costa)
+   — DESPLAZAMIENTO DE LÍNEA DE COSTA visible en imagen
+   — Diferente a los geotubos longitudinales de QR-II-c-01
+
+5-7. TRES MUELLES APOYADOS SOBRE BERMA (efecto espigón):
+   — Muelle 5, 6 y 7: no tienen estructura oculta debajo
+   — Pero la base del muelle descansa sobre la berma arenosa
+     creando barrera impermeable al transporte litoral
+   — CATEGORÍA NUEVA: 'muelle sobre berma = espigón de facto'
+   — Efecto: bloquea transporte sin ser diseñado para ello
+
+8. ESPIGÓN 1 CONVENCIONAL (frente a Aquamarina):
+   — Espigón visible sin enmascaramiento
+
+9. GEOTUBOS LONGITUDINALES (paralelos a costa):
+   — Foto campo: geotubos expuestos con REFLEXIÓN de oleaje
+   — Socavación del lado mar (profundización visible)
+   — Mismo efecto contraproducente que en QR-II-c-01
+
+10. MUROS DE HOTELES sobre primera línea
+
+HALLAZGO PRINCIPAL: 4 TIPOS DE ENMASCARAMIENTO en un solo tramo:
+  a) Espigón de roca bajo muelle (3 casos)
+  b) Dique bajo muelle generando tómbolo (1 caso)
+  c) Muelle sobre berma = espigón de facto (3 casos)
+  d) Espigón de geotubo perpendicular (1 caso)";"EVIDENCIA:
+— Tómbolo detrás de dique enmascarado (foto campo + satélite)
+— Desplazamiento de línea de costa por espigón de geotubos
+— Reflexión de oleaje por geotubos longitudinales (foto campo)
+— Muros de hoteles sobre primera línea";Nula;Lag. Nichupté al S;"Extrema;
+hoteles;
+zona nightlife (Coco Bongo, Mandala);
+espigones;
+playa artificial";Semi-cerrado;Media;EVIDENCIA: protección parcial I. Mujeres (Escudero-Castillo et al. 2018, doi:10.1016/j.ocecoaman.2017.06.001)
+QR-II-c-03;"Playa Caracol – Punta Cancún
+(zona de convergencia)";21.1390°N, 86.7880°W;21.1355°N, 86.7740°W;1,8;Costa acumulativa (intervenida);"Curvatura costera W-E ? N-S (zona de concentración de energía);
+promontorio rocoso de eolianita pleistocénica (dos niveles:
+calcarenita marina MIS 5e inferior + eolianita con estratificación
+cruzada dunar superior, discordancia entre niveles);
+alternancia roca-playa con pocket beaches entre afloramientos;
+hoteles masivos construidos sobre dunas originales (eliminadas)";Abierta (intervenida);Medio-Alto;"Convergente hacia Pta. Cancún:
+— Nortes: oleaje N-NW impacta costa en curvatura ? convergencia energética
+— Alisios: oleaje E-SE comienza a incidir más directamente conforme costa gira de W-E a N-S
+— Zona de transición energética";"Sin datos publicados de transporte específicos.
+Zona de convergencia energética por curvatura costera.
+Magnitud: indeterminada.
+
+Mecanismo: transición entre régimen nortes (W-E) y alisios (N-S).";"Rellenos; transporte desde W";"Pta. Cancún (divergencia); offshore";Negativo crónico;"ESTRUCTURAS COSTERAS — QR-II-c-03
+(Google Earth mar 2025 + serie temporal + fotos campo)
+
+??? ZONA W — PLAYA LANGOSTA TERMINAL ???
+
+1. ESTRUCTURA FUNCIONANDO COMO ESPIGÓN (~extremo W):
+   — No diseñada como espigón; efecto secundario por remoción
+     de sedimento que generan las embarcaciones
+   — Crecimiento acelerado de playa al E entre 2022 y 2025
+     (serie temporal Google Earth)
+
+2-3. MUELLES APOYADOS SOBRE BERMA (efecto espigón):
+   — Mismo patrón que QR-II-c-02
+
+??? ZONA CENTRAL — CAPTAIN HOOK / ASTA BANDERA ???
+
+4. ESPIGÓN con desplazamiento de línea de costa:
+   — Posible RELLENO DE PLAYA anterior a 2005 (pre-Wilma)
+   — Si la playa actual es artificial desde antes de 2005,
+     toda la dinámica post-Wilma parte de condición modificada
+
+??? ZONA E — PLAYA CARACOL (BAHÍA CURVA) ???
+
+5. ALTERNANCIA NATURAL ROCA-PLAYA:
+   — Afloramientos de eolianita pleistocénica en línea de costa
+   — Actúan como ESPIGONES NATURALES confinando pocket beaches
+   — Foto campo: roca caliza con arena blanca entre afloramientos;
+     turistas, kayaks, veleros en las playuelas
+
+6. MUROS DE HOTELES SOBRE BERMA/DUNA:
+   — Hoteles masivos (Fiesta Americana, Riu Palace, Dreams Sands)
+     construidos sobre dunas originales que ya no existen
+   — Muros de hoteles sobre la berma = última línea de defensa
+   — Sin buffer eólico: retroceso de playa amenaza infraestructura
+
+7. ESPIGONES DE BOLSACRETO EN SERIE (extremo E, cerca Pta. Cancún):
+   — Sacos de geotextil/mortero perpendiculares a costa
+   — Foto campo (panorámica): bolsacreto EXPUESTO en zona de rompiente;
+     oleaje rompe directamente contra los sacos
+   — DESPLAZAMIENTO DE LÍNEA DE COSTA de hasta 25 m
+     (observación de campo CEGAM)
+   — Energía notablemente MAYOR que en costa W-E rectilínea:
+     convergencia de energía por curvatura costera
+   — Los bolsacreto están reteniendo arena en zona de convergencia
+     energética, potencialmente alterando el balance natural de la
+     divergencia de Pta. Cancún (Escudero-Castillo et al. 2018)
+
+??? PROMONTORIO ROCOSO DE PUNTA CANCÚN ???
+
+8. PROMONTORIO DE EOLIANITA PLEISTOCÉNICA:
+   — Extensión ~200-250 m (estimado contra escala 431 m)
+   — GEOLOGÍA (foto campo detallada):
+     · Nivel inferior: caliza pleistocénica (MIS 5e, ~125 ka)
+       color verdoso por colonización algas/cianobacterias
+       textura de calcarenita marina consolidada
+     · Nivel superior: eolianita con ESTRATIFICACIÓN CRUZADA
+       de origen dunar; cambios de dirección en estratos = registro
+       paleoclimático de vientos pleistocénicos
+     · Discordancia entre niveles: periodo de exposición/erosión
+   — CONTROL GEOLÓGICO NATURAL de la divergencia:
+     roca dura que no se erosiona al ritmo de la playa ?
+     sobresale como promontorio ? genera divergencia sedimentaria
+   — NO es headland de acumulación — es roca madre expuesta
+
+EVALUACIÓN:
+— Curvatura concentra energía: estructuras aquí están bajo mayor estrés
+— Bolsacreto con 25 m desplazamiento: funcionan pero alteran divergencia
+— Hoteles sobre dunas = vulnerabilidad máxima sin buffer
+— Promontorio rocoso: control geológico dominante, no requiere intervención";"EVIDENCIA:
+— Espigones de bolsacreto: desplazamiento 25 m (campo CEGAM)
+— Crecimiento playa W acelerado 2022-2025 (serie temporal GE)
+— Posible relleno pre-2005 zona Captain Hook
+— Promontorio: geología de dos niveles confirmada (foto campo)
+— Alternancia roca-playa: afloramientos eolianita (foto campo)
+— Convergencia energética en curvatura (oleaje mayor, foto campo)";Nula;Canal navegación al SE;"Extrema;
+zona nightlife máxima (Coco Bongo, Mandala);
+hoteles sobre curvatura";Abierto;Media;EVIDENCIA: divergencia en Pta. Cancún (Escudero-Castillo et al. 2018, doi:10.1016/j.ocecoaman.2017.06.001)
+QR-II-c-04;"Punta Cancún
+(headland / punto de divergencia)";21.1355°N, 86.7740°W;21.138219°N, 86.740892°W;0,5;Costa erosiva (intervenida);"Punta rocosa calcárea; rompeolas 305 m, corona +2.5 m (Martell-Dubois et al. 2020); punto divergencia transporte litoral; cambio orientación W-E ? N-S; densidad sedimentaria >3,232 kg/m³ backshore (Escudero et al. 2022)";N/A (punta + rompeolas);Alto;Divergente (Escudero-Castillo et al. 2018);"~0 m³/año (punto de divergencia).
+EVIDENCIA: Escudero-Castillo et al. 2018 documenta divergencia sedimentaria en Pta. Cancún.
+El transporte diverge bilateralmente desde este punto ? balance local fuertemente negativo.";"Ninguna local; material rompeolas";"Divergencia bilateral; offshore";Fuertemente negativo;"ESTRUCTURAS COSTERAS — QR-II-c-04
+(Google Earth mar 2025 + fotos campo)
+
+COSTA ROCOSA DOMINANTE — GEOLOGÍA > INGENIERÍA:
+
+1. PROMONTORIO ROCOSO EXTENSO (continuación de QR-II-c-03):
+   — Eolianitas pleistocénicas dominan la costa
+   — Plataformas de abrasión con pocket beaches entre headlands
+   — No hay corredor arenoso continuo ? transporte litoral
+     naturalmente fragmentado por la roca
+
+2. MUELLES SOBRE PILOTES APOYADOS EN ROCA:
+   — Múltiples muelles de madera con palapas
+   — Fotos campo: base de muelles arranca de ROCA, no de arena
+   — Muelle gris (pilotes madera) + muelle rojo (barandal)
+   — SIN INFLUENCIA en transporte litoral porque:
+     a) Apoyados sobre roca, no sobre arena
+     b) Costa rocosa ya fragmenta naturalmente el transporte
+     c) Pocket beaches confinadas entre headlands naturales
+     d) Los muelles sobre pilotes son permeables
+   — El control geológico natural supera cualquier efecto
+     de las estructuras
+
+3. FARO DE PUNTA CANCÚN:
+   — Estructura puntual sobre promontorio; sin efecto costero
+
+4. RUINAS MAYAS:
+   — Vestigio arqueológico sobre promontorio; sin intervención
+
+EVALUACIÓN:
+— Punto de divergencia sedimentaria (Escudero-Castillo et al. 2018)
+— Geología controla: roca dura genera divergencia y fragmenta transporte
+— Las estructuras existentes (muelles sobre roca) NO requieren
+  evaluación de impacto sobre transporte litoral — el transporte
+  no existe como corredor continuo aquí
+— LINEAMIENTO: en tramos con costa rocosa dominante, muelles
+  sobre pilotes apoyados en roca no requieren la misma evaluación
+  que en tramos arenosos continuos";"EVIDENCIA:
+— Divergencia: Escudero-Castillo et al. 2018 (EVIDENCIA)
+— Costa rocosa: fotos campo confirman eolianitas, plataformas
+  de abrasión, pocket beaches confinadas
+— Muelles sobre roca: fotos campo confirman apoyo en sustrato
+  rocoso, no en arena";Nula;Sin ecosistema;"Extrema; rompeolas; hoteles sobre punta";Abierto (punto de cambio);Baja;"EVIDENCIA: rompeolas 305 m (Martell-Dubois et al. 2020, doi:10.3390/jmse8060388); divergencia (Escudero-Castillo et al. 2018, doi:10.1016/j.ocecoaman.2017.06.001); densidad 3,232 kg/m³ (Escudero et al. 2022, doi:10.3390/land11040524)"
+QR-III-01;"Zona Hotelera Cancún
+(Pta. Cancún ? Pta. Nizuc)";21.138219°N, 86.740892°W;21.031609°N, 86.779808°W;13;Costa acumulativa (intervenida);"Isla barrera orientada N-S; exposición directa Caribe ESE (?=112.5°);
+sin protección arrecifal (único tramo extenso sin arrecife en costa Caribe QR);
+playa artificial por rellenos masivos (2.7 Mm³ 2006 + 5.2 Mm³ 2010);
+dunas remanentes solo en Playa Delfines;
+erosión crónica 2 m/año (Silva et al. 2006);
+muros de hoteles sobre berma a lo largo de todo el frente;
+Pta. Nizuc = segundo punto de divergencia (Escudero-Castillo et al. 2018)";Abierta (relleno artificial);Alto;"N?S (neto; alisios ESE ?=112.5°)
+Divergencia en Pta. Nizuc (Escudero-Castillo et al. 2018)";"EVIDENCIA INDIRECTA:
+— 8 Mm³ perdidos durante Wilma en ~24 hrs (Silva et al. 2012)
+— Rellenos: 2.7 Mm³ (2006) + 5.2 Mm³ (2010) (Martell-Dubois et al. 2020)
+— Erosión crónica 2 m/año (Silva et al. 2006, citado en Silva 2012, 2017)
+— D50 = 0.44 mm (Escudero et al. 2021)
+Magnitud neta anual de transporte: no publicada.
+
+Mecanismo: alisios ESE sobre costa N-S; Hb ~1.0–1.2 m (sin arrecife); ? ~15–25°.";"Relleno artificial (Bancos La Ollita II y Punta Norte, MIA S.G.P.A./DGIRA/DG/3758/09);
+bioproducción carbonatada limitada (sin arrecife frente a costa);
+transporte desde QR-II-c (limitado por divergencia Pta. Cancún)";"Offshore durante tormentas y huracanes (principal);
+transporte N?S hacia Pta. Nizuc;
+erosión crónica 2 m/año";"FUERTEMENTE NEGATIVO sin intervención.
+Wilma 2005: pérdida de 8 Mm³ en 24 hrs (Silva et al. 2012).
+Rellenos masivos 2006+2010 = única fuente de arena.
+Erosión crónica 2 m/año consume gradualmente el relleno.
+Sin rellenos periódicos, la playa desaparecería.";"ESTRUCTURAS COSTERAS — QR-III-01 (ZH Cancún completa, ~13 km)
+(Google Earth mar 2025 + evaluación de campo CEGAM)
+
+??? INVENTARIO DE ESTRUCTURAS ???
+
+1. ESCOLLERA DE APOYO DE PLAYA (~21°08'00""N, Playa Gaviota Azul):
+   — ~300 m de longitud (Martell-Dubois et al. 2020: 305 m)
+   — ÚNICA estructura significativa de todo el tramo
+   — Función: apoyo del relleno de playa
+
+2. DIQUES DE GEOTEXTIL SUMERGIDOS (~7-8 a lo largo del tramo):
+   — Distribuidos entre Punta Cancún y Punta Nizuc
+   — Álvarez et al. 2006: geotubos como rompeolas sumergidos
+   — EVALUACIÓN DE CAMPO: SIN INFLUENCIA en la línea de costa
+   — No se requieren por su ubicación respecto al oleaje habitual
+   — Su posición no es coherente con la dirección del oleaje dominante
+   — Conclusión: estructuras INEFICACES; no cumplen función
+
+3. MUROS DE HOTELES SOBRE LA BERMA (todo el frente, ~13 km):
+   — No son estructuras de protección costera por diseño;
+     son la base/cimentación de los hoteles que queda expuesta
+     cuando la playa se estrecha por erosión
+   — En condiciones NORMALES: sin efecto significativo
+   — En condiciones de TORMENTA: se vuelven EROSIVOS por
+     REFLEXIÓN DEL OLEAJE — las olas impactan el muro y la
+     energía reflejada socava la base del perfil de playa,
+     acelerando la pérdida de arena frente al muro
+   — Efecto paradójico: los muros que 'protegen' el hotel
+     aceleran la pérdida de la playa que está frente a él
+   — Este efecto es temporal (durante tormentas) pero acumulativo:
+     cada tormenta remueve más arena del perfil frente al muro
+     que la que removería en una playa natural sin obstáculo
+
+4. MUROS SOBRE DUNA EN PLAYA DELFINES:
+   — Playa Delfines = única sección con dunas remanentes en toda la ZH
+   — Muros construidos sobre la duna o en su base
+   — EFECTO CRÍTICO: impiden que la duna cumpla su función natural
+     como RESERVORIO DE ARENA para recuperación post-tormenta
+   — Función natural de la duna: durante tormentas/huracanes la duna
+     se erosiona y aporta arena al perfil de playa, amortiguando la
+     erosión; después, el viento reconstruye la duna gradualmente.
+     El muro bloquea este intercambio playa-duna:
+     ? La duna no puede aportar arena durante tormenta (muro impide)
+     ? La duna no se reconstruye después (arena no llega)
+     ? Se pierde la resiliencia natural del sistema
+   — CASO ESPECIAL: Playa Delfines es la última reserva de duna
+     funcional de la ZH; si se pierde, toda la ZH dependerá
+     exclusivamente de rellenos artificiales periódicos
+
+5. AUSENCIA NOTABLE:
+   — NO hay espigones perpendiculares a lo largo de la ZH N-S
+   — NO hay rompeolas emergidos funcionales
+   — NO hay campos de espigones como en QR-II-c o QR-II-b
+   — La estrategia de manejo ha sido RELLENO MASIVO,
+     no protección dura — enfoque correcto dado que los
+     espigones sin arena no funcionan (lección de QR-II-b-02)
+
+??? DIAGNÓSTICO ???
+
+Tramo HOMOGÉNEO en cuanto a estructuras: ~13 km con muros sobre
+berma, diques sumergidos sin efecto, y una sola escollera.
+La playa existe POR LOS RELLENOS, no por las estructuras.
+
+HALLAZGOS PARA LINEAMIENTOS:
+1. Muros sobre berma = erosivos durante tormentas (reflexión)
+   ? lineamiento: setback mínimo obligatorio para nueva infraestructura
+2. Muros sobre duna en Playa Delfines = destruyen resiliencia natural
+   ? lineamiento: prohibir construcción sobre dunas remanentes;
+     restaurar intercambio playa-duna donde sea posible
+3. Diques sumergidos sin efecto = inversión desperdiciada
+   ? lineamiento: evaluar remoción o reubicación
+4. Rellenos masivos como estrategia dominante es correcto para
+   costa sin arrecife, pero requiere programa cíclico permanente
+   ? lineamiento: fondo fiduciario para rellenos periódicos
+
+COHERENCIA CON TRANSPORTE:
+SÍ: erosión crónica N?S consistente con transporte por alisios ESE.
+Los diques sumergidos no modifican este patrón.";"EVIDENCIA:
+— Wilma 2005: 8 Mm³ perdidos (Silva et al. 2012) — EVIDENCIA
+— Erosión crónica 2 m/año (Silva et al. 2006) — EVIDENCIA
+— Rellenos 2.7+5.2 Mm³ (Martell-Dubois et al. 2020) — EVIDENCIA
+— Diques sumergidos sin efecto (campo CEGAM) — EVIDENCIA
+— Muros sobre berma en todo el frente (Google Earth + campo)
+— Muros sobre duna en Playa Delfines (campo CEGAM)
+— D50=0.44 mm (Escudero et al. 2021); 3,232 kg/m³ (Escudero 2022)";Nula (sin arrecife) — único tramo extenso sin protección arrecifal en costa Caribe de QR;Lag. Nichupté al W (desconectada por urbanización);"EXTREMA:
+— >30,000 habitaciones hoteleras en ~13 km
+— Inversión inmobiliaria >$150,000 millones USD (estimación)
+— >8 millones turistas/año en Cancún
+— Rellenos periódicos requeridos como mantenimiento permanente";Abierto (exposición total);Baja;"EVIDENCIA: erosión 2 m/año (Silva et al. 2006, citado en Silva et al. 2012, doi:10.1002/clen.201100677 y Silva et al. 2017, doi:10.1680/jmaen.2016.13); 8 Mm³ Wilma (Silva et al. 2012); D50=0.44 mm (Escudero et al. 2021, doi:10.3389/fmars.2021.684732); rellenos (Martell-Dubois et al. 2020, doi:10.3390/jmse8060388); coastal squeeze (Silva et al. 2017)"
+QR-IV-a-01;Pta. Nizuc – Playa del Secreto;21.031609°N, 86.779808°W;20.9945°N, 86.8185°W;7;Costa acumulativa;"Playa con protección arrecifal incipiente;
+inicio SAM continuo;
+arena media carbonatada;
+transición geomorfológica Cancún (sin arrecife) ? Puerto Morelos (con arrecife)";Arrecifal (inicio barrera);Bajo-Medio;N?S;"Sin datos publicados de transporte para este tramo específico.
+Arrecife incipiente reduce energía respecto a Cancún.
+Magnitud: indeterminada.
+
+Mecanismo: alisios ESE; Hb reducido por arrecife incipiente (~40-50% disipación estimada); ? ~15–20°.";"Bioproducción arrecifal; transporte desde Cancún (limitado por Pta. Nizuc)";"Laguna arrecifal; transporte S";"Sin datos cuantitativos para este tramo específico.
+Arrecife incipiente reduce energía ? menor erosión que Cancún (inferencia por comparación).
+Balance: indeterminado pero probablemente menos negativo que Cancún por presencia de arrecife";"ESTRUCTURAS COSTERAS — QR-IV-a-01
+(Google Earth mar 2025 + oct 2025 + mayo 2023 + campo CEGAM)
+
+1. BARRERA ANTI-SARGAZO con efecto espigón (~20°59'30""N, Moon Palace):
+   — Instalada Q1 2025 como barrera contra sargazo
+   — EFECTO NO PREVISTO: funciona como espigón
+   — Acumulación 6 m en cara norte (updrift, transporte N?S)
+   — Nueva categoría: 'barrera anti-sargazo con efecto espigón'
+   — Implicación: si hay muchas más a lo largo de la Riviera Maya,
+     podrían estar alterando transporte litoral sin documentación
+
+2. ROMPEOLAS SUMERGIDOS (×8, sector Compass Bar / Riviera Maya Resort):
+   — 6× 'con poca influencia sobre la línea de costa'
+   — 2× 'presumiblemente de geotubos, sin influencia'
+   — Mismo patrón que ZH Cancún: estructuras sumergidas sin efecto
+
+3. ESPIGÓN con acumulación 16 m (~20°54'00""N, Riviera Maya Resort):
+   — Acumulación en cara norte ~16 m (campo CEGAM)
+   — Confirma transporte N?S activo con suministro sedimentario
+   — Contraste con rompeolas sumergidos: espigón perpendicular
+     SÍ intercepta transporte; rompeolas sumergidos NO
+
+4. ROMPEOLAS de baja cota de coronación (×2, Secrets Riviera Cancún):
+   — Cercanos a línea de costa
+   — HEMITÓMBOLOS PEQUEÑOS observados
+   — Funcionan parcialmente: proximidad a costa permite que
+     zona de sombra alcance la playa
+
+GRADIENTE DE EFECTIVIDAD:
+— Rompeolas sumergidos lejos de costa (8): sin efecto
+— Rompeolas de baja cota cerca de costa (2): hemitómbolos pequeños
+— Espigón perpendicular (1): 16 m acumulación
+— Barrera anti-sargazo (1): 6 m acumulación (no intencional)
+Conclusión: SÍ hay arena en tránsito; las estructuras necesitan
+interceptar la zona de transporte activo para ser efectivas.";"EVIDENCIA:
+— Barrera anti-sargazo: 6 m acumulación N en meses (campo CEGAM 2025)
+— Espigón: 16 m acumulación N (campo CEGAM)
+— 2 hemitómbolos pequeños en rompeolas de baja cota
+— 8 rompeolas sumergidos sin efecto (campo CEGAM)
+— Arrecife discontinuo en este sector";Media (arrecife incipiente);Pastos marinos incipientes;"Alta;
+hoteles all-inclusive Riviera Maya;
+campos de golf;
+residenciales";Semi-cerrado (laguna arrecifal);Media;INTERPRETACIÓN: transición basada en inicio SAM. Disipación: EVIDENCIA (Ruiz de Alegría et al. 2013, doi:10.1016/j.geomorph.2013.05.032)
+QR-IV-a-02;"Puerto Morelos pueblo
+(PN Arrecife, referencia)";20.9945°N, 86.8185°W;20.8485°N, 86.8740°W;11;Costa acumulativa;"Playa con protección arrecifal; barrera continua cresta semi-emergida; PN desde 1998; disipación 85% Hs (Ruiz de Alegría et al. 2013); D50=0.30 mm (Escudero et al. 2021); laguna 3-4 m, 550-1500 m (Coronado et al. 2007, citado en Franklin et al. 2018); costa rectilínea sin promontorios (Escudero et al. 2021); dunas <2 m (Pellón et al. 2021)";Arrecifal (barrera continua);Bajo;"N?S (débil; amortiguado)";"EVIDENCIA PARCIAL:
+— Disipación arrecifal 85% Hs (Ruiz de Alegría et al. 2013) ? Hb residual ~0.15 m
+— Acreción ~30 m post-Wilma (Secaira-Fajardo et al. 2017 citando Mariño-Tapia et al. 2014)
+— D50 = 0.30 mm (Escudero et al. 2021)
+— Costa rectilínea sin promontorios (Escudero et al. 2021)
+Estos datos indican transporte litoral muy bajo por la disipación arrecifal, pero no hay tasa de transporte anual publicada.
+
+Mecanismo: con 85% disipación, Hb residual ~0.15 m ? transporte por oleaje es mínimo; corrientes inducidas por arrecife pueden dominar sobre oleaje residual.";"Producción arrecifal in situ; transporte residual N";"Laguna arrecifal; transporte S Pta. Brava";Positivo (acreción post-Wilma);"ESTRUCTURAS COSTERAS — QR-IV-a-02
+(Google Earth abr 2024 + campo CEGAM)
+
+1. MURO SOBRE BERMA en pueblo (~20°50'51""N):
+   — ~60 m de longitud
+   — RETROCESO de línea de costa ~7 m respecto a áreas adyacentes
+   — Reflexión del oleaje socava perfil incluso detrás de arrecife
+     con 85% disipación: el 15% residual es suficiente
+   — Mismo efecto que muros ZH Cancún pero aquí CUANTIFICADO
+
+2. MUELLE DE PUERTO MORELOS (~20°50'40""N):
+   — Muelle histórico inclinado (landmark turístico)
+   — ACUMULACIÓN 50 m en cara norte (campo CEGAM)
+   — Mayor acumulación documentada en todo el recorrido
+   — Confirma transporte N?S ACTIVO incluso con 85% disipación arrecifal
+   — Estructura sólida que cruza toda la zona de transporte activo
+   — EFECTO DOWNDRIFT: todo lo que está al sur del muelle
+     recibe menos arena ? sombra sedimentaria
+
+3. MICRO SAND ENGINE experimental (Escudero et al. 2020):
+   — Alimentación puntual para evaluar redistribución natural
+
+DATO CLAVE: 50 m de acumulación en un solo muelle demuestra
+que hay transporte longshore significativo incluso con arrecife.
+Contradice la idea de que 'con arrecife no hay transporte litoral'.";"EVIDENCIA:
+— Muelle: +50 m acumulación cara N (campo CEGAM) — mayor del recorrido
+— Muro: -7 m retroceso respecto a áreas sin muro (campo CEGAM)
+— Disipación arrecifal 85% (Ruiz de Alegría et al. 2013) — EVIDENCIA
+— Acreción +30 m post-Wilma (Secaira-Fajardo 2017) — EVIDENCIA
+— D50=0.30 mm (Escudero et al. 2021)";MUY ALTA (85% disipación Hs);"Thalassia; manglar residual; PN Arrecife 1998";"Moderada; pueblo pescador; SCTLD (100% A. palmata muerta, Alvarez-Filip et al. 2019)";Semi-cerrado (laguna arrecifal);Baja;"EVIDENCIA: 85% disipación (Ruiz de Alegría et al. 2013, doi:10.1016/j.geomorph.2013.05.032); D50=0.30mm (Escudero et al. 2021, doi:10.3389/fmars.2021.684732); laguna 3-4m, 550-1500m (Coronado et al. 2007, doi:10.1007/s00338-006-0175-9, citado en Franklin et al. 2018, doi:10.5194/nhess-18-1247-2018); ~30m acreción (Secaira-Fajardo et al. 2017 citando Mariño-Tapia et al. 2014); dunas (Pellón et al. 2021, doi:10.1016/j.geomorph.2021.107991); SCTLD (Alvarez-Filip et al. 2019, doi:10.7717/peerj.8069). CELDA DE REFERENCIA."
+QR-IV-a-03;Pto. Morelos S – Punta Brava;20.8485°N, 86.8740°W;20.8155°N, 86.8880°W;8;Costa acumulativa;"Sin protección arrecifal (arrecife discontinuo);
+afloramientos rocosos en línea de costa;
+berma que desaparece en marea alta (perfil deficitario);
+sombra sedimentaria del muelle de Puerto Morelos (updrift)";Arrecifal;Bajo;N?S;"Sin datos publicados de transporte.
+Micro sand engine experimental documentado (Escudero et al. 2020).
+Arrecife continuo + headland Pta. Brava limitan transporte.
+Magnitud: indeterminada.
+
+Mecanismo: arrecife continuo reduce Hb ~70-80%; Pta. Brava actúa como barrera parcial.";"Bioproducción; transporte desde N";"Pta. Brava (headland); laguna arrecifal";"Sin datos cuantitativos.
+Déficit evidente: berma desaparece en marea alta;
+5 escolleras impermeables sin acumulación = confirmación de
+que no hay arena en tránsito (sombra del muelle Pto. Morelos).
+Afloramientos rocosos dominan la línea de costa.
+Balance: negativo (déficit por estructura updrift + sin arrecife continuo).";"ESTRUCTURAS COSTERAS — QR-IV-a-03
+(Google Earth abr 2024 + foto campo)
+
+1. CINCO ESCOLLERAS PERPENDICULARES (Marina El Cid, ~20°50'N):
+   — 3 escolleras de resort + 2 escolleras de marina
+   — Estructuras sólidas de ROCA, impermeables (foto campo confirma)
+   — SIN EFECTO sobre línea de costa a pesar de ser impermeables
+   — Causa del no-efecto: SOMBRA SEDIMENTARIA del muelle de
+     Puerto Morelos (updrift) que captura 50 m de arena.
+     El muelle retiene todo ? las escolleras no reciben arena
+   — La configuración del arrecife también influye: discontinuo
+     en este sector pero continuo frente al muelle
+   — NO es problema de diseño de las escolleras (son sólidas)
+     sino de suministro sedimentario agotado por estructura updrift
+
+2. AFLORAMIENTOS ROCOSOS NATURALES:
+   — Eolianitas en línea de costa funcionan como headlands naturales
+   — Berma desaparece en marea alta ? perfil deficitario
+
+EVALUACIÓN:
+— Tramo en DÉFICIT por sombra del muelle de Puerto Morelos
+— Escolleras funcionales en diseño pero sin materia prima
+— Misma lección que QR-II-b-02 (3 diques sin arena = sin efecto)";"EVIDENCIA:
+— 5 escolleras sin efecto a pesar de ser impermeables (campo CEGAM)
+— Afloramientos rocosos en línea de costa (campo)
+— Berma deficitaria que desaparece en marea alta (campo)
+— Arrecife discontinuo en este sector
+— Sombra sedimentaria del muelle Pto. Morelos (inferencia)";Alta (arrecife continuo);"Pastos marinos; manglar back";"Moderada; resorts; Pta. Brava headland";Semi-cerrado;Media;EVIDENCIA: micro sand engine (Escudero et al. 2020, doi:10.3390/jmse8030177). Pta. Brava como headland: EVIDENCIA (Escudero et al. 2021, doi:10.3389/fmars.2021.684732)
+QR-IV-b-01;"Pta. Brava – Punta Maroma
+(resorts, arrecife variable)";20.8155°N, 86.8880°W;20.7095°N, 86.9635°W;15;Costa acumulativa;"Línea de rompiente nueva cercana a costa (sin cresta arrecifal
+pero con barra submarina en continuación del alineamiento
+del muelle de Puerto Morelos hasta Pta. Brava);
+dunas presentes; berma mejor desarrollada que tramo anterior;
+Punta Maroma = acumulación secuencial por difracción arrecifal
+(beach ridges progradantes visibles en vegetación de duna)
+PERO en retroceso acelerado: >120 m en 19 años (~6.3 m/año);
+~1,750 m de rompeolas en múltiples configuraciones (Nickelodeon);
+arena media carbonatada";Mixta (arrecifal variable);Bajo-Medio;N?S;"Sin datos publicados de transporte neto anual.
+Arrecife discontinuo ? protección variable.
+Magnitud: indeterminada.
+
+Mecanismo: alisios ESE; Hb variable (0.3–0.8 m según presencia/ausencia arrecife); ? ~15–20°.";"Transporte litoral N; bioproducción local";"Transporte S; offshore sectores sin arrecife";"FUERTEMENTE NEGATIVO en sector Punta Maroma:
+— Retroceso >120 m en 19 años (2006-2025) = ~6.3 m/año
+   (análisis multitemporal línea de costa, CEGAM)
+— Tasa 3× mayor que Cancún ZH (2 m/año)
+— SIN estructuras de protección ni rellenos artificiales
+Variable en otros sectores:
+— Sector Nickelodeon: rompeolas masivos intentan compensar
+— Sector Vidanta: espigones modifican localmente
+Balance general del tramo: negativo a fuertemente negativo.";"ESTRUCTURAS COSTERAS — QR-IV-b-01
+(Google Earth abr 2016 + abr 2024 + foto campo)
+
+??? SECTOR NICKELODEON / GENERATIONS (~20°47'–20°48'30""N) ???
+
+1. BATERÍA DE ROMPEOLAS (~1,750 m de extensión):
+   — MAYOR CONCENTRACIÓN DE ROMPEOLAS de todo el estado
+   — Múltiples líneas paralelas a costa a diferentes distancias offshore
+   — Al menos 3-4 líneas de rompeolas escalonadas (defensa en profundidad)
+   — Material: bloques de concreto prefabricado rectangulares/cuadrados
+   — Configuraciones observadas:
+     a) Rompeolas lineales largos paralelos a costa
+     b) Bloques individuales dispersos (segmentados)
+     c) Líneas múltiples escalonadas a diferentes profundidades
+     d) Complementación de afloramientos rocosos naturales:
+        las estructuras llenan los vacíos entre rocas naturales
+   — Filosofía de diseño: LLENAR VACÍOS DEL ARRECIFE NATURAL
+     donde hay roca, no se pone estructura; donde hay ventana, se pone
+   — Foto campo: bloques de concreto + afloramientos naturales
+     intercalados; parasailing; playa con bañistas detrás
+
+??? SECTOR MAROMA / VIDANTA (~20°44'–20°46'N) ???
+
+2. ESPIGÓN con acumulación cara norte (~20°46'N, Ambiance):
+   — Sostiene arena de la playa en cara N (updrift)
+   — Consistente con transporte N?S
+
+3. MUELLE CON ESPIGÓN ENMASCARADO (~20°45'30""N, Vidanta):
+   — Muelle de madera con palapas sobre pilotes
+   — ESPIGÓN ENMASCARADO debajo que interrumpe transporte
+   — Foto campo confirma: muelle permeable arriba, estructura debajo
+   — 6° sitio documentado con esta técnica en QR:
+     Wellness Clinic, Xtabay, QR-II-c-02 (×3), y aquí
+
+4. ESPIGÓN INFUNCIONAL (~20°45'N, Villa Joy):
+   — Espigón construido donde HEADLAND NATURAL ya cumplía
+     la misma función de retención
+   — La roca/punta natural ya confinaba la playa
+   — ESTRUCTURA REDUNDANTE: inversión desperdiciada por
+     no evaluar geomorfología existente antes de construir
+   — Nueva categoría: 'estructura redundante con headland natural'
+
+??? PUNTA MAROMA — CASO CRÍTICO SIN ESTRUCTURAS ???
+
+5. AUSENCIA TOTAL DE ESTRUCTURAS en Punta Maroma:
+   — NO hay espigones, rompeolas, geotubos ni muros
+   — NO hay rellenos artificiales
+   — NO hay protección de ningún tipo
+   — A PESAR DE ESTO: retroceso >120 m en 19 años (~6.3 m/año)
+     (análisis multitemporal CEGAM, 2006–2025)
+
+   DIAGNÓSTICO:
+   La erosión de Punta Maroma NO es causada por estructuras
+   costeras (no las hay). Es erosión de un rasgo geomorfológico
+   progradante (beach ridges por difracción arrecifal) que está
+   en fase de RETROCESO ACELERADO. La protuberancia que tardó
+   siglos o milenios en formarse se está deshaciendo a >6 m/año.
+   Esto puede deberse a:
+   — Reducción de suministro sedimentario por estructuras updrift
+     (muelle Pto. Morelos, espigones, barreras anti-sargazo)
+   — Degradación arrecifal (SCTLD + blanqueamiento coral) que reduce
+     tanto la bioproducción de arena como la protección hidrodinámica
+   — Déficit sedimentario acumulativo post-Wilma 2005
+   — Posible cambio en patrón de oleaje / ascenso nivel del mar
+
+   LINEAMIENTO PROPUESTO PARA PUNTA MAROMA:
+   a) MONITOREO URGENTE: instalar red de perfiles de playa
+      con frecuencia trimestral para cuantificar tasa actual
+      y tendencia. Incluir levantamiento batimétrico para
+      evaluar estado del arrecife frente a la punta.
+   b) ESTUDIO DE CAUSAS: determinar contribución relativa de:
+      — déficit por estructuras updrift (modelación numérica)
+      — degradación arrecifal (monitoreo biológico + Hs residual)
+      — déficit post-Wilma (comparación con línea de costa pre-2005)
+   c) EVALUACIÓN DE INTERVENCIÓN:
+      — Si causa principal es déficit updrift: solución es gestión
+        de estructuras a escala de celda litoral (no local)
+      — Si causa principal es degradación arrecifal: restauración
+        de arrecife como protección costera (solución ecosistémica)
+      — Si causa es irreversible: plan de RETROCESO PLANIFICADO
+        (managed retreat) para infraestructura hotelera en riesgo
+        (Secrets Maroma, Catalonia, Chablé Maroma, Belmond)
+   d) ALERTA: con ~6.3 m/año de retroceso, infraestructura hotelera
+      que hoy está a 30-50 m de la costa estará amenazada en
+      5-8 años sin intervención. Ventana de acción limitada.
+   e) NO SE RECOMIENDA instalar espigones como primera opción:
+      sin diagnóstico de causa, los espigones podrían agravar
+      el problema (efecto downdrift en Chablé/Belmond al sur).
+      La solución debe partir de la celda litoral, no del predio.
+
+??? SECTOR ST. REGIS / KANAI / EL FARO (~20°42'30""–20°43'30""N) ???
+
+6. ROMPEOLAS SUMERGIDOS SIN EFECTO (sector norte El Dorado/Palafitos):
+   — 3 rompeolas sumergidos alejados + 1 geotubo alejado: no funcionan
+   — 1 rompeola de 8 geotubos (3 centrales emergidos): no funciona
+   — Mismo patrón: alejados + sumergidos + cortos = ineficaces
+
+7. ROMPEOLAS ENMASCARADOS bajo plataforma de madera (×3):
+   — Geotubos emergidos ('BALLENAS' en terminología local)
+     enmascarados debajo de plataformas de madera con palapa
+   — 2 rompeolas forman HEMITÓMBOLO
+   — 1 rompeolas (más al sur) forma TÓMBOLO COMPLETO con arena de relleno
+   — Relleno de playa ejecutado ~2018-2019
+   — FUNCIONAN: emergidos + cercanos + relleno = retención exitosa
+
+8. DUNA ARTIFICIAL DE GEOTUBOS (~800-1000 m lineales):
+   — PROYECTO INTEGRAL DE INGENIERÍA COSTERA A ESCALA DE PAISAJE
+   — Geotubos como núcleo estructural cubiertos con arena y vegetación
+   — Comparación temporal CEGAM:
+     · Enero 2017: duna NO EXISTÍA; costa angosta sin desarrollo
+     · Agosto 2019: duna completada
+     ? Construcción en ~2.5 años (ene 2017 ? ago 2019)
+   — Adyacente a ecosistema de MANGLAR Y LAGUNAS LITORALES
+     (no terreno agrícola — corrección de interpretación de imagen)
+   — EVOLUCIÓN MÁXIMA DEL ENMASCARAMIENTO:
+     Pasamos de geotubo bajo muelle (puntual) ?
+     espigón bajo muelle (puntual) ?
+     DUNA ARTIFICIAL A ESCALA DE PAISAJE (~1 km)
+   — La 'duna' simula naturalidad pero no puede cumplir
+     función natural de reservorio de arena erosionable:
+     si tormenta remueve capa de arena, queda geotubo rígido expuesto
+   — Implicación regulatoria: ¿tramitado como 'restauración de duna'
+     o como 'estructura de protección costera'? Permisos diferentes
+
+EVALUACIÓN:
+— Sector Nickelodeon: intervención masiva (1,750 m rompeolas)
+  para compensar falta de arrecife; diseño inteligente de
+  complementación con afloramientos naturales
+— Sector Maroma: playa funcional que existe con o sin estructuras;
+  las intervenciones modifican localmente pero no son esenciales
+— Espigón redundante: caso textbook para lineamientos";"EVIDENCIA EROSIÓN/ACRECIÓN:
+
+PUNTA MAROMA — EROSIÓN CRÍTICA:
+— Análisis multitemporal de línea de costa (Google Earth, CEGAM):
+   Línea negra = 2006; línea verde = 2025
+— RETROCESO DE >120 m en 19 años (~6.3 m/año)
+— Tasa de erosión TRIPLE que Cancún ZH (2 m/año, Silva et al. 2006)
+— SIN ESTRUCTURAS COSTERAS: erosión completamente natural/no mitigada
+— El retroceso máximo coincide con el VÉRTICE de Punta Maroma:
+   la parte que más sobresale = máxima exposición al oleaje
+   por convergencia de energía en la protuberancia
+— Los beach ridges que documentamos (acumulación secuencial por
+   difracción arrecifal) se están DESHACIENDO:
+   la punta que tardó siglos/milenios en formarse por progradación
+   está retrocediendo a >6 m/año
+— Posibles causas:
+   a) Déficit sedimentario: estructuras updrift (muelle Pto. Morelos,
+      espigones, barreras) reducen el suministro N?S
+   b) Degradación del arrecife: SCTLD + blanqueamiento reducen
+      bioproducción carbonatada + protección arrecifal
+   c) Cambio en régimen de oleaje / aumento nivel del mar
+   d) Acumulación de déficit post-Wilma 2005 no recuperado
+— IMPLICACIÓN: si una playa 'bien establecida' con beach ridges
+   pierde >120 m en 19 años, las playas menos estables están
+   en riesgo aún mayor
+
+OTROS:
+— Batería rompeolas Nickelodeon: ~1,750 m (Google Earth + campo)
+— Espigón Ambiance: acumulación cara N (satélite)
+— Espigón enmascarado Vidanta: confirmado (foto campo)
+— Espigón redundante Villa Joy: headland natural preexistente
+— Dunas y berma mejor desarrollada que QR-IV-a-03";Media (discontinuo);"Manglar fragmentado; pastos marinos variables";"Alta;
+hoteles all-inclusive (Secrets, Iberostar);
+desarrollos inmobiliarios;
+sargazo";Variable (dependiente arrecife);Media;INTERPRETACIÓN: arrecife discontinuo basado en Escudero et al. 2021
+QR-IV-b-02;"Secrets Moxché – Playa del Carmen –
+Playacar (costa arenosa con erosión)";20.7095°N, 86.9635°W;20.5895°N, 87.0830°W;7;Costa acumulativa (intervenida);"Costa arenosa N-S con arrecife discontinuo a variable;
+erosión activa generalizada; afloramientos rocosos intermitentes;
+máxima concentración de estructuras costeras de toda la Riviera Maya;
+múltiples estrategias de protección coexistiendo sin coherencia;
+frente urbano de PdC: presión extrema;
+Playacar: zona hotelera con playa más amplia;
+indicadores de eutrofización (algas verdes filamentosas sobre roca)
+probablemente por SGD con nutrientes de zona urbana (karst)";Abierta (intervenida);Medio;N?S;"Sin datos publicados de transporte neto anual.
+Erosión 1–3 m/año documentada (Odériz et al. 2014) indica pérdida neta pero no cuantifica transporte.
+Magnitud: indeterminada como tasa de transporte litoral.
+
+Mecanismo: alisios ESE; Hb ~0.6–0.8 m (arrecife disperso); ? ~15–20°.";"Transporte litoral N; bioproducción; rellenos";"Muelles (trampa); offshore";"FUERTEMENTE NEGATIVO en sectores BlueBay, PdC centro.
+— Muelles descolgados, cimentaciones expuestas, bolsas de arena
+— Rompeolas 150 m demostró recuperación local (+26 m)
+— Mayakoba: negativo a pesar de 30+ diques
+— Playacar: más estable (menos presión, playa más amplia)
+Balance general: negativo; solo intervenciones bien diseñadas
+(rompeolas 150 m) muestran resultados positivos.";"ESTRUCTURAS COSTERAS — QR-IV-b-02
+(Google Earth nov 2025 + mar 2025 + campo CEGAM)
+
+??? SECTOR SECRETS MOXCHÉ / SANDOS CARACOL (~20°39'N) ???
+
+~15-16 DIQUES secuenciados en ~600 m:
+— Mismo patrón: alejados sin efecto, cercanos con efecto parcial
+
+??? SECTOR BLUEBAY (~20°41'47""–20°42'13""N) ???
+
+CASO FRACASO: ~14-15 ESTRUCTURAS EN 400 m (~1 cada 27 m):
+— 1 espigón, 2 diques poco convencionales (sin efecto),
+  ~6 diques, ~3 muelles, 1 mixto dique/espigón
+— 2 MUELLES DESCOLGADOS por retroceso de línea de costa
+  = evidencia directa de fracaso a pesar de relleno + estructuras
+— Cada hotel intervino independientemente ? caos sin coherencia
+
+??? SECTOR MAYAKOBA (~20°40'–20°41'N) ???
+
+~30+ DIQUES en ~1.5 km (Rosewood, Banyan Tree, Grand Velas):
+— DIQUE DE 306 m (Rosewood): estructura mayor
+— Concentración máxima Grand Velas/Platinum: ~15-20 diques agrupados
+— Alejados/sumergidos: sin efecto en línea de costa
+— Volumen ? efectividad
+
+??? SECTOR PdC CENTRO (~20°37'30""–20°38'30""N) ???
+
+1. GEOTUBOS en línea de costa (90 m, sector norte):
+   — Protección directa de frente urbano
+
+2. CONSTRUCCIONES protegidas con BOLSAS DE ARENA:
+   — Medida de EMERGENCIA — última línea antes del colapso
+   — Infraestructura directamente sobre línea de costa
+   — Cimentaciones expuestas y socavadas (foto campo)
+
+3. ROMPEOLAS 150 m (2024, ~20°37'40""N, Playa Mamitas):
+   — CASO DE ÉXITO: berma de 11 m ? 37 m = +26 m DE PLAYA GANADA
+   — Hemitómbolo formado en menos de 1 año
+   — Emergido, longitud suficiente, cercano, con arena en tránsito
+   — Prueba de que en PdC SÍ se puede recuperar playa
+
+4. MUELLES ULTRAMAR FERRY (~20°37'25""N):
+   — Construcción en inicio sobre berma = ESPIGÓN DE FACTO
+   — Retención de arena en cara norte (transporte N?S)
+
+5. INDICADORES DE EUTROFIZACIÓN:
+   — Algas verdes filamentosas densas sobre afloramientos rocosos
+   — Probable enriquecimiento de nutrientes por SGD
+     (descarga agua subterránea kárstica con aguas residuales
+     infiltradas desde zona urbana de PdC)
+   — Impacto en calidad de playa turística
+   — Lineamiento: gestión costera debe considerar calidad de agua
+
+??? SECTOR PLAYACAR (~20°35'44""–20°37'N) ???
+
+6. ROMPEOLAS protección cable submarino (2010, ~20°35'50""N):
+   — Propósito original: proteger cable a Cozumel (NO costero)
+   — EFECTO NO PREVISTO: hemitómbolo ligero
+   — 15 años desde construcción; hemitómbolo estable pero modesto
+   — Nueva categoría: estructura para infraestructura submarina
+     con efecto costero involuntario
+
+7. Playa amplia, hoteles set back, menor intervención que PdC centro
+
+??? INVENTARIO TOTAL QR-IV-b-02 ???
+— ~60+ diques (mayoría sin efecto)
+— ~5 espigones
+— ~5 muelles (2 descolgados)
+— 90 m geotubos + bolsas de arena (emergencia)
+— 1 rompeolas 150 m exitoso
+— 1 rompeolas cable submarino
+
+??? LINEAMIENTOS QR-IV-b-02 ???
+
+1. PROHIBIR instalación individual sin plan integral de celda
+   (lección BlueBay: ~15 estructuras = fracaso)
+2. Evaluar ubicación/cota ANTES de autorizar; retirar ineficaces
+   (lección Mayakoba: 30+ diques, mayoría sin efecto)
+3. REPLICAR el modelo exitoso del rompeolas 150 m PdC:
+   emergido, longitud suficiente, cercano, donde hay arena
+4. Integrar gestión de CALIDAD DE AGUA (eutrofización/SGD)
+   con gestión costera — no se resuelve erosión sin resolver
+   contaminación de acuífero kárstico
+5. COHERENCIA > CANTIDAD: Puerto Cancún (6 estructuras, sistema)
+   = éxito vs BlueBay (15 estructuras, caos) = fracaso";"EVIDENCIA:
+— BlueBay: 2 muelles descolgados (Google Earth mar 2025)
+— Mayakoba: ~30+ diques, alejados sin efecto (Google Earth mar 2025)
+— PdC centro: bolsas de arena, cimentaciones expuestas (foto campo)
+— Rompeolas 150 m: +26 m berma en <1 año (Google Earth nov 2025)
+— Ultramar: retención cara N visible (nov 2025)
+— Algas filamentosas verdes = eutrofización (foto campo)
+— Rompeolas cable submarino 2010: hemitómbolo ligero (nov 2025)
+— Moxché/Sandos: ~16 diques mismo patrón (nov 2025)";Baja-Media (disperso);"Manglar eliminado; sin ecosistema";"EXTREMA; urbanización masiva; muelles; Quinta Avenida; sargazo";Abierto;Media;EVIDENCIA: erosión 1-3 m/año (Odériz et al. 2014, doi:10.2112/SI71-009.1)
+QR-IV-c-01;"Costa rocosa: Xcaret – Calica –
+Puerto Aventuras – Kantenah";20.5895°N, 87.0830°W;20.4730°N, 87.2280°W;12;Costa rocosa (terraza baja) con caletas;"Costa rocosa dominante: terrazas bajas de caliza Pleistocena;
+caletas naturales y artificiales intercaladas;
+playas de bolsillo arenosas sobre sustrato rocoso;
+arena sobre roca (no playa continua);
+afloramientos rocosos en línea de costa;
+transporte litoral arenoso mínimo o inexistente (costa rocosa);
+vegetación escasa;
+uso turístico de terrazas rocosas como albercas naturales
+(baja intervención, sin impacto en transporte)";Rocosa con caletas / bolsillo;Variable (protegido en caletas, alto en costa expuesta);N?S (interrumpido por Calica);"Interrumpido por Terminal Calica.
+CERC no aplicable: Calica interrumpe físicamente el transporte litoral N?S.
+Extracción directa de roca caliza altera el balance de masa costero.";"Transporte residual N; erosión plataforma; bioproducción";"Calica (extracción directa); offshore; transporte S";"No aplica en sentido convencional (costa rocosa).
+Las playas de bolsillo (Puerto Aventuras, Kantenah)
+tienen balance controlado por el confinamiento geológico
+de las caletas, no por transporte litoral abierto.
+Las estructuras no modifican significativamente el balance.";"ESTRUCTURAS COSTERAS — QR-IV-b-03
+(Google Earth + fotos campo)
+
+CONTEXTO: Costa ROCOSA con transporte arenoso mínimo.
+Las grandes estructuras (escolleras de marina, Calica,
+delfinario Xcaret) NO alteran significativamente el
+transporte litoral porque están en zona rocosa donde
+el transporte de arena es mínimo o inexistente.
+
+??? XCARET (~20°34'N) ???
+— Escolleras de delfinario y marina
+— Caletas naturales modificadas artificialmente
+— Sin impacto significativo en transporte (costa rocosa)
+
+??? CALICA (~20°32'N) ???
+— Terminal portuaria de carga (caliza para exportación)
+— Escolleras mayores (barrera total al transporte)
+— En costa rocosa: impacto en transporte arenoso es mínimo
+— El impacto de Calica es más por extracción de material
+   (cantera de caliza) que por las escolleras
+
+??? PUERTO AVENTURAS (~20°30'N) ???
+— Marina con escolleras mayores
+— PLAYA DE BOLSILLO dentro de la caleta:
+  ~5 espigones + ~5 diques + ~4 diques sumergidos
+  en un espacio pequeño
+— NO se observa beneficio notable de las estructuras
+— La playa existe por el confinamiento de la caleta,
+   no por las estructuras
+
+??? KANTENAH (~20°28'N) ???
+— 2 ESPIGONES sin ningún beneficio para el sistema costero
+— Muro a lo largo de parte de la berma
+— Playa arenosa con afloramientos en línea de costa
+
+??? SOLUCIÓN POSITIVA: ALBERCAS EN ROCA ???
+
+— En diversos sitios se aprovechan las terrazas rocosas
+   para crear ALBERCAS NATURALES/ARTIFICIALES
+— Muros bajos de roca local confinan pozas de agua marina
+— VENTAJAS:
+  · Sin impacto en transporte litoral (no hay transporte que afectar)
+  · Mínimo impacto en vegetación (escasa en roca)
+  · Uso recreativo del frente costero SIN necesidad de playa
+  · Adaptado a la geomorfología del sitio
+  · Menor inversión que rompeolas/rellenos
+— LINEAMIENTO: en costas rocosas con terrazas bajas,
+  PROMOVER albercas naturales como alternativa a la
+  creación artificial de playa. No toda costa turística
+  necesita playa arenosa — las albercas de roca son una
+  solución con menores impactos y mayor resiliencia.
+
+??? DIAGNÓSTICO GENERAL ???
+Tramo donde la GEOMORFOLOGÍA ROCOSA domina.
+Las estructuras costeras de ingeniería son mayormente
+innecesarias o ineficaces porque no hay transporte
+litoral arenoso significativo que manejar.
+Las playas de bolsillo (Puerto Aventuras, Kantenah)
+tienen estructuras sin beneficio visible.
+La solución de albercas en roca es el modelo a seguir.";"EVIDENCIA:
+— Puerto Aventuras: ~14 estructuras sin beneficio notable
+  (Google Earth + campo)
+— Kantenah: 2 espigones sin beneficio (foto campo)
+— Kantenah: muro sobre berma (foto campo)
+— Albercas naturales en roca: múltiples sitios (foto campo)
+— Costa rocosa dominante con terrazas bajas (campo)
+— Xcaret, Calica: escolleras mayores sin impacto en
+  transporte arenoso (costa rocosa)";"Variable: arrecife presente en algunos sectores
+pero la costa rocosa domina la morfología.
+La protección arrecifal es menos relevante donde
+no hay playa arenosa que proteger.";"Manglar residual; pastos marinos";"Alta; Calica cantera; resorts; Punta Maroma";Parcialmente cerrado (Calica);Media;INTERPRETACIÓN: Calica como barrera por principios sedimentarios. Extracción caliza: EVIDENCIA (observación directa, Google Earth)
+QR-IV-d-01;Akumal – Bahía Media Luna;20.4730°N, 87.2280°W;20.3930°N, 87.3105°W;8;Costa acumulativa;"Playas cerradas (pocket beaches); bahías kársticas: Akumal, Bahía Media Luna, Yal-Kú; arrecife barrera; Thalassia extensas; anidación tortugas (4 spp. NOM-059)";Cerrada (bahías kársticas + arrecifal);Bajo;"N?S (muy débil; bahías confinadas)";"Sin datos publicados de transporte.
+Bahías kársticas confinadas ? transporte litoral limitado por headlands.
+Magnitud: indeterminada.
+
+Mecanismo: arrecife barrera continuo reduce Hb ~70-80%; confinamiento reduce ? efectivo a ~5–10°.";"Bioproducción arrecifal; erosión eolianitas";"Bahías (sumidero local); manglar";"FUERTEMENTE NEGATIVO en Bahía de Akumal:
+— >30 m de retroceso en 10 años (~3 m/año)
+— Pérdida irreversible: arena fuera de balance sin retorno
+— Triple afectación: playa + pastos marinos + tortugas
+Otros sectores del tramo: sin datos cuantitativos.";"ESTRUCTURAS COSTERAS — QR-IV-d-01
+(campo CEGAM + análisis multitemporal)
+
+Estructuras menores en resorts de Akumal.
+Espigones bajos en algunos sectores.
+Bahías kársticas confinadas naturalmente.
+
+??? BAHÍA DE AKUMAL — CASO CRÍTICO MULTIDIMENSIONAL ???
+
+EROSIÓN:
+— Pérdida significativa de arena: >30 m en 10 años (~3 m/año)
+— Arena SALIENDO del balance sedimentario de la playa
+  SIN POSIBILIDADES DE RETORNO (pérdida neta irreversible)
+— Causa probable: la arena se pierde hacia offshore más allá
+  del perfil de cierre, o hacia zonas de pastos donde queda
+  atrapada entre rizomas — en ambos casos no regresa a la playa
+
+IMPACTO EN PASTOS MARINOS (Thalassia testudinum):
+— La pérdida de arena está afectando el LÍMITE SUPERIOR
+  de las praderas de pastos marinos
+— Los RIZOMAS se están quedando SIN SUSTRATO:
+  al perder arena, los rizomas que estaban enterrados quedan
+  expuestos ? pierden anclaje ? la pradera retrocede
+— Efecto cascada: pérdida de playa ? pérdida de pasto ?
+  pérdida de hábitat para fauna marina ? pérdida de
+  atractivo turístico (snorkel con tortugas = principal
+  actividad económica de Akumal)
+
+IMPACTO EN ANIDACIÓN DE TORTUGAS MARINAS:
+— Extremo NORTE de la bahía: muy poca arena y muy compactada
+— Las tortugas presentan DIFICULTADES PARA ANIDAR:
+  · Arena insuficiente para excavar nido de profundidad adecuada
+  · Arena compactada impide excavación
+  · Ambas condiciones reducen éxito de anidación
+— Akumal es históricamente uno de los sitios más importantes
+  de anidación de tortuga verde (Chelonia mydas) y caguama
+  (Caretta caretta) en la Riviera Maya
+— La pérdida de playa = pérdida de hábitat reproductivo
+  para especies en peligro (NOM-059-SEMARNAT-2010)
+
+TRIPLE AFECTACIÓN:
+1. PLAYA: -30 m en 10 años, pérdida irreversible
+2. PASTOS MARINOS: rizomas sin sustrato, pradera retrocediendo
+3. TORTUGAS: dificultad de anidación por arena insuficiente/compacta
+
+LINEAMIENTO PROPUESTO PARA BAHÍA DE AKUMAL:
+
+a) DIAGNÓSTICO INTEGRAL obligatorio antes de cualquier intervención:
+   — ¿Hacia dónde se va la arena? (perfiles batimétricos + trazadores)
+   — ¿Qué proporción se pierde offshore vs queda en pastos?
+   — ¿Hay déficit por estructuras updrift o es proceso natural?
+
+b) SOLUCIÓN DEBE SER ECOSISTÉMICA, no solo ingenieril:
+   — Cualquier intervención debe considerar simultáneamente:
+     · Recuperación de ancho de playa
+     · Protección de praderas de pastos marinos
+     · Mantenimiento de hábitat de anidación
+   — Un relleno masivo sin control podría SEPULTAR los pastos
+   — Un espigón podría desviar arena HACIA los pastos
+     (agravando la pérdida de sustrato de rizomas)
+   — La solución debe retener arena EN LA PLAYA sin
+     alterar el equilibrio playa-pastos-arrecife
+
+c) POSIBLES INTERVENCIONES A EVALUAR:
+   — Alimentación de playa (green nourishment) con arena
+     compatible (D50, composición carbonatada)
+   — Rompeolas de baja cota cercanos a costa para reducir
+     transporte offshore durante tormentas
+   — Restauración de arrecife como protección hidrodinámica
+   — Restauración de dunas en extremo norte para hábitat
+     de anidación (arena suelta, no compactada)
+
+d) MONITOREO INTEGRADO:
+   — Línea de costa (perfiles trimestrales)
+   — Extensión y salud de praderas de pastos
+   — Éxito de anidación de tortugas (nidos/temporada,
+     profundidad de nidos, tasa de eclosión)
+   — Los tres indicadores deben mejorar simultáneamente;
+     mejorar uno a costa de otro NO es aceptable
+
+e) MARCO REGULATORIO:
+   — Akumal tiene PNRA (Programa Nacional de Restauración
+     Ambiental) potencialmente aplicable
+   — Tortuga verde y caguama: NOM-059 (en peligro/amenazada)
+   — Pastos marinos: humedal costero protegido
+   — Cualquier intervención requiere coordinación:
+     DGIRA + DGVS + CONANP + Municipio de Tulum";"EVIDENCIA EROSIÓN/ACRECIÓN:
+— Bahía de Akumal: >30 m de pérdida en 10 años (~3 m/año)
+  (análisis multitemporal CEGAM)
+— Arena fuera de balance sedimentario sin retorno
+— Rizomas de Thalassia sin sustrato (campo CEGAM)
+— Dificultad de anidación de tortugas en extremo N:
+  arena insuficiente y compactada (campo CEGAM)
+— Playas pocket confinadas por headlands kársticos";Alta (barrera continua);"Thalassia extensas; cenotes; manglar";"ALTA (turismo) + ECOLÓGICA:
+— Akumal: turismo de snorkel con tortugas = actividad principal
+— >1,000 visitantes/día en temporada alta
+— Resorts (Secrets Akumal, etc.)
+— Anidación de tortuga verde y caguama (NOM-059)
+— Praderas de Thalassia testudinum
+— Sargazo post-2015";Semi-cerrado (bahías);Media;EVIDENCIA: sargazo (van Tussenbroek et al. 2017, doi:10.1016/j.marpolbul.2017.06.057). NOM-059: EVIDENCIA
+QR-IV-d-02;Xel-Há – Tankah;20.3930°N, 87.3105°W;20.2790°N, 87.3920°W;15;Costa mixta;"Alternancia playa-costa rocosa baja; caletas kársticas (Xel-Há caleta principal); arrecife barrera; cenotes costeros; parque Xel-Há; eolianitas";Mixta (caletas + arrecifal);Bajo-Medio;N?S;"Sin datos publicados de transporte.
+Costa mixta con caletas kársticas.
+Magnitud: indeterminada.
+
+Mecanismo: alisios ESE; arrecife barrera; ? ~10–20°; caletas interrumpen continuidad.";;"Caletas (sumidero); cenotes (infiltración); transporte S";"Sin datos cuantitativos.
+Costa mixta (playa + roca); cenotes costeros añaden complejidad hidrológica.
+Tulum pueblo = presión creciente sin cuantificación de impacto sedimentario.
+Balance: indeterminado";"Muelles artesanales en caletas.
+Sin espigones significativos documentados.
+Cenotes costeros y caletas kársticas dominan la morfología.
+Influencia mínima.";"Sin datos cuantitativos; costa semi-natural con sectores turísticos";Alta (arrecife barrera);"Cenotes costeros; manglar; pastos marinos; arrecife";"Moderada; parque Xel-Há; cabañas eco; cenotes turísticos
+SGD (descarga agua subterránea): vía de transporte de nutrientes y contaminantes disueltos al mar (Zona Fractura Holbox)";Semi-cerrado (arrecife);Alta;INTERPRETACIÓN: caletas kársticas por geología regional. Cenotes: EVIDENCIA (QRSS)
+QR-IV-d-03;Tulum ruinas – Tulum playa;20.2790°N, 87.3920°W;20.2120°N, 87.4275°W;14;Costa mixta;"Playas arenosas con mayor continuidad que tramos al norte;
+mayor protección de arrecifes coralinos (barrera más continua);
+PLAYA PARAÍSO = HEMITÓMBOLO NATURAL formado por la protección
+de la barrera arrecifal (zona de sombra del arrecife genera
+acumulación en la costa, mismo mecanismo que Punta Maroma
+pero a menor escala y actualmente estable);
+zona arqueológica de Tulum sobre acantilado (eolianita);
+dunas desarrolladas; sargazo post-2015;
+transición de zona hotelera a pueblo costero";Mixta (playa + acantilado + cenotes);Bajo-Medio;N?S;"Sin datos publicados de transporte.
+Magnitud: indeterminada.
+
+Mecanismo: alisios ESE; arrecife barrera; ? ~10–20°.";;"Cenotes (infiltración); transporte S; offshore";"Sin datos cuantitativos.
+Acantilado de ruinas mayas estable (estructura rígida); sectores de playa sin datos de tendencia.
+Balance: indeterminado";"ESTRUCTURAS COSTERAS — QR-IV-d-03
+
+Muelles artesanales en zona de Tulum pueblo.
+Sin espigones ni diques exentos documentados.
+Zona de regulación especial por zona arqueológica.
+
+RASGO NATURAL RELEVANTE:
+— PLAYA PARAÍSO: hemitómbolo natural formado por la
+  protección de la barrera arrecifal
+— El arrecife genera una zona de sombra hidrodinámica
+  que permite la acumulación de arena en la costa
+— Mismo mecanismo geomorfológico que Punta Maroma
+  (QR-IV-b-01) pero actualmente ESTABLE
+— IMPLICACIÓN PARA LINEAMIENTOS:
+  · Playa Paraíso demuestra que el arrecife CREA playa
+  · La salud del arrecife es protección costera directa
+  · Si el arrecife se degrada (SCTLD, blanqueamiento),
+    Playa Paraíso podría seguir el destino de Pta. Maroma
+    (>120 m de retroceso en 19 años cuando se pierde
+    la protección arrecifal)
+  · PROTEGER EL ARRECIFE = PROTEGER LA PLAYA
+  · Caso textbook para justificar restauración arrecifal
+    como estrategia de protección costera
+
+CONTRASTE Playa Paraíso vs Punta Maroma:
+— Ambas son hemitómbolos formados por arrecife
+— Paraíso: arrecife sano ? playa estable
+— Maroma: ¿arrecife degradado? ? retroceso >6 m/año
+— Si esta hipótesis se confirma, es el argumento más
+  poderoso para la restauración arrecifal como política
+  de protección costera del estado";"EVIDENCIA:
+— Playa Paraíso: hemitómbolo natural por protección arrecifal
+  (campo CEGAM — geomorfología visible en satélite)
+— Playas arenosas con mayor continuidad que tramos al norte
+— Mayor protección arrecifal (barrera más continua)
+— Zona arqueológica sobre acantilado eolianita";Alta (barrera continua);"Cenotes; manglar; pastos; arrecife";"Alta creciente; turismo masivo Tulum; crecimiento urbano descontrolado; Tren Maya
+SGD (descarga agua subterránea): vía de transporte de nutrientes y contaminantes disueltos al mar (Zona Fractura Holbox)";Semi-cerrado (arrecife);Media;"INTERPRETACIÓN: clasificación mixta por alternancia. Cenotes: EVIDENCIA (QRSS; Sac Aktun documentado)"
+QR-IV-e-01;Tulum sur – límite Sian Ka'an;20.2120°N, 87.4275°W;20.1310°N, 87.4620°W;15;Costa acumulativa;"Playa con protección arrecifal; transición hacia régimen natural; dunas naturales prominentes; manglar back-barrier; reducción gradual presión antrópica; 4,981 ha dunas 77% natural (Pellón et al. 2021)";Arrecifal (semi-natural);Bajo;N?S;"Sin datos publicados de transporte.
+Transición hacia Sian Ka'an (régimen natural).
+Magnitud: indeterminada.
+
+Mecanismo: alisios ESE; arrecife barrera continuo reduce Hb; ? ~10–15°.";"Bioproducción; erosión eolianitas; transporte desde N";"Transporte S (hacia Sian Ka'an); manglar";"Sin datos cuantitativos.
+Dunas naturales prominentes (4,981 ha, 77% natural; Pellón et al. 2021) sugieren sistema funcional con intercambio playa-duna activo.
+Transición hacia Sian Ka'an ? reducción presión antrópica.
+Balance: indeterminado pero gradiente N?S de conservación (Guimarais et al. 2021) sugiere condiciones más favorables que tramos al norte";"Sin estructuras costeras significativas.
+Transición hacia Sian Ka'an; presión decreciente.
+Dunas naturales prominentes sin intervención.";"Sin tasas; transición gradual hacia equilibrio natural";Alta;"Manglar creciente; pastos; arrecife; dunas naturales";"Moderada decreciente; hoteles boutique; cabañas; RB enfrente";Semi-cerrado;Alta;"EVIDENCIA: dunas 4,981 ha 77% natural (Pellón et al. 2021, doi:10.1016/j.geomorph.2021.107991); gradiente antropización N?S (Guimarais et al. 2021, doi:10.3390/su13052738)"
+QR-IV-f-01;Boca Paila – costa N Sian Ka'an;20.1310°N, 87.4620°W;20.0320°N, 87.4645°W;15;Costa acumulativa;"Sistema barrera natural; Boca Paila = inlet; Lag. Chunyaxché; arrecife barrera; dunas activas; manglar; RB UNESCO; SII máximo (Guimarais et al. 2021)";Barrera natural + arrecifal;Bajo;N?S (natural);"Sin datos publicados de transporte.
+RB Sian Ka'an; SII máximo (Guimarais et al. 2021).
+Magnitud: indeterminada.
+
+Mecanismo (CERC cualitativo): alisios ESE; arrecife SAM continuo reduce Hb significativamente; ? ~10–20° sobre costa N-S.";"Bioproducción arrecifal; erosión natural";"Boca Paila (intercambio); laguna; manglar";"Sin datos cuantitativos.
+SII máximo documentado (Guimarais et al. 2021) indica ecosistema íntegro, pero integridad ecosistémica ? balance sedimentario.
+Boca Paila permite intercambio con laguna.
+Balance: indeterminado (sistema de referencia natural sin monitoreo de perfiles publicado)";"Sin estructuras costeras de ingeniería.
+RB Sian Ka'an: prohibida la construcción costera.
+Boca Paila: canal natural sin escolleras artificiales.";"Sin tasas; sistema referencia natural; SII máximo";Alta (barrera SAM continua);"Laguna; manglar dominante; 84 spp. coral";"Mínima; RB Sian Ka'an; turismo bajo impacto; pesca langosta";Semi-cerrado (barrera + laguna);Media;"EVIDENCIA: SII máximo (Guimarais et al. 2021, doi:10.3390/su13052738); RB UNESCO (WHC 410)"
+QR-IV-f-02;Costa central Sian Ka'an + Bahía Ascensión;20.0320°N, 87.4645°W;19.8330°N, 87.4685°W;25;Costa acumulativa + sistema lagunar;"Barrera natural continua; Bahía de la Ascensión (sumidero terminal); arrecife barrera; manglar extenso; pesca langosta cooperativa";Barrera natural + arrecifal;Bajo;N?S (natural);"Sin datos publicados de transporte.
+Bahía Ascensión como sumidero regional.
+Magnitud: indeterminada.
+
+Mecanismo (CERC cualitativo): alisios ESE; arrecife SAM continuo reduce Hb significativamente; ? ~10–20° sobre costa N-S.";"Bioproducción; transporte natural";"Bahía Ascensión (sumidero terminal); manglar";"Sin datos cuantitativos.
+Bahía de la Ascensión funciona como sumidero para sedimento que entra, pero la costa oceánica exterior no tiene datos de balance.
+Balance costa oceánica: indeterminado";"Sin estructuras costeras de ingeniería.
+RB Sian Ka'an: sistema natural de referencia.";"Sin datos; sistema natural referencia";Muy alta (barrera SAM);"Bahía Ascensión; manglar dominante; pastos";"Mínima; pesca langosta; turismo mínimo";Semi-cerrado;Alta;INTERPRETACIÓN: Bahía Ascensión como sumidero por morfología semi-cerrada
+QR-IV-f-03;Punta Allen;19.8330°N, 87.4685°W;19.780951°N, 87.469773°W;15;Costa acumulativa;"Extremo terminal de barra Boca Paila;
+Pta. Allen: evidencia de antigua flecha arenosa (beach ridges visibles en vegetación de duna)
+pero actualmente termina en manglar ? flecha inactiva / relicta;
+arrecife continuo frente a costa;
+comunidad pesquera ~500 hab.";Arrecifal (natural);Bajo;N?S;"Sin datos publicados de transporte.
+Comunidad pesquera Pta. Allen.
+Magnitud: indeterminada.
+
+Mecanismo (CERC cualitativo): alisios ESE; arrecife SAM continuo reduce Hb significativamente; ? ~10–20° sobre costa N-S.";"Bioproducción; transporte desde N";"Bahía Espíritu Santo; offshore; manglar";"Sin datos cuantitativos.
+Comunidad pesquera mínima; sin monitoreo.
+Balance: indeterminado";"Muelles artesanales de madera para lanchas de pesca (Punta Allen, ~500 hab.).
+Sin espigones ni diques.
+Influencia: despreciable.";"Pta. Allen: beach ridges fósiles en vegetación de duna sugieren progradación histórica;
+actualmente la punta termina en manglar = flecha relicta, no activa;
+el manglar ha colonizado el extremo terminal";Alta;"Manglar; lagunas; pastos";"Baja; comunidad pesquera; flyfish";Semi-cerrado;Alta;INTERPRETACIÓN: sistema natural. Pta. Allen: EVIDENCIA (CONANP)
+QR-V-01;Pta. Allen – Bahía Espíritu Santo N;19.780951°N, 87.469773°W;19.6480°N, 87.4440°W;12;Costa acumulativa + sistema lagunar;"Barra natural; Bahía Espíritu Santo al W; arrecife continuo; manglar; Orbicella spp. (Guimarais et al. 2021)";Barrera natural + arrecifal;Bajo;"Variable; influencia bahía";"Sin datos publicados de transporte.
+RB Sian Ka'an; Orbicella dominante (Guimarais et al. 2021).
+Magnitud: indeterminada.
+
+Mecanismo (CERC cualitativo): alisios ESE; arrecife SAM continuo reduce Hb significativamente; ? ~10–20° sobre costa N-S.";"Bioproducción arrecifal; transporte desde N";"Bahía Espíritu Santo; manglar";"Sin datos cuantitativos.
+RB Sian Ka'an; sin monitoreo geomorfológico publicado.
+Orbicella como constructor dominante (Guimarais et al. 2021) sugiere arrecife funcional pero no informa sobre balance sedimentario costero.
+Balance: indeterminado";"Sin estructuras costeras de ingeniería.
+RB Sian Ka'an: costa natural sin intervención.";"Sin datos; equilibrio natural";Muy alta;"Bahía Esp. Santo; manglar; pastos";"Mínima; RB Sian Ka'an; pesca langosta";Semi-cerrado;Alta;EVIDENCIA: Orbicella dominante (Guimarais et al. 2021, doi:10.3390/su13052738)
+QR-V-02;Costa S – Punta Herrero;19.6480°N, 87.4440°W;19.311907°N, 87.445462°W;18;Costa acumulativa;"Playa con arrecife;
+Pta. Herrero = headland rocoso (caliza), NO flecha arenosa;
+sin desarrollo significativo;
+manglar posterior";Arrecifal (natural);Bajo;N?S (débil);"Sin datos publicados de transporte.
+Costa natural sin monitoreo.
+Magnitud: indeterminada.
+
+Mecanismo (CERC cualitativo): alisios ESE; arrecife SAM continuo reduce Hb significativamente; ? ~10–20° sobre costa N-S.";"Bioproducción; transporte residual";"Bahía Esp. Santo; offshore; transporte S";"Sin datos cuantitativos.
+Costa natural sin monitoreo.
+Balance: indeterminado";"Muelle artesanal en Punta Herrero (~50 hab.).
+Estructura menor de madera.
+Influencia: despreciable.";"Sin datos; sistema natural";Alta;"Manglar; pastos; arrecife SAM";"Mínima; Pta. Herrero ~50 hab.; pesca";Semi-cerrado;Alta;INTERPRETACIÓN: sistema natural referencia
+QR-VI-01;Pta. Herrero – Río Indio;19.311907°N, 87.445462°W;19.1060°N, 87.5640°W;50;Costa acumulativa;"Playa con arrecife; costa semi-virgen; arrecife 100-300 m; manglar dominante; sin carretera; acceso solo mar/terracería";Arrecifal (natural);Bajo;N?S;"Sin datos publicados de transporte.
+Costa inaccesible; sin estudios.
+Magnitud: indeterminada.
+
+Mecanismo (CERC cualitativo): alisios ESE; arrecife SAM continuo reduce Hb significativamente; ? ~10–20° sobre costa N-S.";"Bioproducción arrecifal; erosión natural";"Bahías; offshore; manglar; transporte S";"Sin datos cuantitativos.
+Costa inaccesible; sin estudios publicados.
+Balance: indeterminado (costa menos estudiada del estado)";"Sin estructuras costeras documentadas.
+Costa inaccesible; sin desarrollo.
+Banco Chinchorro 30 km offshore (atolón natural, no estructura).";"Sin datos; costa poco accesible";Alta (arrecife SAM continuo);"Manglar extenso; lagunas costeras; pastos";"Mínima; sin desarrollo; pesca artesanal";Semi-cerrado;Muy alta;INTERPRETACIÓN: costa menos estudiada de QR. Arrecife SAM: EVIDENCIA (Guimarais et al. 2021, doi:10.3390/su13052738)
+QR-VI-02;Río Indio – Mahahual N;19.1060°N, 87.5640°W;18.7245°N, 87.7060°W;50;Costa acumulativa;"Playa con arrecife; costa natural; arrecife SAM continuo; manglar; lagunas dispersas; acceso terrestre limitado; Banco Chinchorro ~30 km offshore";Arrecifal (natural);Bajo;N?S;"Sin datos publicados de transporte.
+Costa natural; arrecife SAM continuo.
+Magnitud: indeterminada.
+
+Mecanismo (CERC cualitativo): alisios ESE; arrecife SAM continuo reduce Hb significativamente; ? ~10–20° sobre costa N-S.";"Bioproducción; transporte litoral";"Bahías; lagunas; manglar";"Sin datos cuantitativos.
+Costa natural sin desarrollo; arrecife SAM continuo.
+Balance: indeterminado";"Sin estructuras costeras significativas documentadas.
+Costa natural con acceso limitado.";"Sin datos; costa no estudiada en detalle";Alta;"Manglar; lagunas; pastos; Banco Chinchorro (RB 144,360 ha) al offshore";"Mínima; sin acceso terrestre en gran parte";Semi-cerrado;Muy alta;"INTERPRETACIÓN: arrecife SAM regional (Guimarais et al. 2021; Alvarez-Filip et al. 2009, doi:10.1098/rspb.2009.0339)"
+QR-VI-03;Mahahual (Costa Maya);18.7245°N, 87.7060°W;18.7060°N, 87.7115°W;4;Costa acumulativa (intervenida);"Playa con protección arrecifal;
+muelle cruceros Costa Maya (destruido por Dean 2007 Cat.5, reconstruido);
+Banco Chinchorro 30 km offshore como estructura arrecifal regional";Arrecifal (intervenida);Bajo-Medio;N?S;"Sin datos publicados de transporte.
+Dean 2007 Cat.5 impacto directo; muelle cruceros actúa como barrera parcial.
+Magnitud: indeterminada.
+
+Mecanismo: alisios ESE; arrecife frente a costa; muelle modifica patrón local.";"Bioproducción; transporte litoral";"Muelle (barrera parcial); offshore; transporte S";"FUERTEMENTE NEGATIVO en frente urbano:
+— Playa perdida, escolleras de emergencia
+— Duna eliminada por construcción de calle
+— Sin resiliencia natural
+— Erosión continua a pesar de escolleras";"ESTRUCTURAS COSTERAS — QR-IV-f-03 (Mahahual)
+(fotos campo CEGAM)
+
+??? ESCOLLERAS DE EMERGENCIA EN FRENTE COSTERO ???
+
+1. ESCOLLERAS DE ROCA SUELTA a lo largo del borde costero:
+   — Roca suelta colocada SIN ORDENAMIENTO ni diseño ingenieril
+   — Cada negocio/propietario coloca su propia roca ? caos
+   — Bolsas de arena intercaladas entre las rocas
+   — Pasto artificial sobre berma remanente (apariencia turística
+     donde ya no hay playa natural)
+   — Similar al caso BlueBay (QR-IV-b-02): intervención
+     individual sin plan integral, pero aquí a escala de
+     pueblo pesquero con mucho menos recurso
+
+2. CALLE PRINCIPAL SOBRE LA DUNA:
+   — El malecón costero de Mahahual está construido
+     SOBRE lo que era la duna costera
+   — La duna fue ELIMINADA para construir la calle
+   — Mismo error que muros sobre duna en Playa Delfines
+     (QR-III-01) pero a escala de pueblo entero
+   — Consecuencias:
+     · Sin duna = sin reservorio de arena post-tormenta
+     · Calle/infraestructura directamente expuesta al oleaje
+     · Las escolleras protegen LA CALLE, no la playa
+     · La playa ya se perdió ? ahora protegen infraestructura
+
+3. MUELLES DE MADERA (varios a lo largo del frente):
+   — Muelles artesanales para lanchas turísticas y pesqueras
+   — Sin efecto significativo en transporte (laguna arrecifal)
+
+4. MUELLE DE CRUCEROS (al norte del pueblo):
+   — Estructura mayor para cruceros Costa Maya
+   — Escolleras del muelle
+
+DIAGNÓSTICO:
+— Playa PERDIDA en frente urbano
+— Escolleras de emergencia sin diseño = reflexión del oleaje
+  que acelera erosión en tramos sin escollera
+— Caos de intervenciones individuales (como BlueBay)
+— La causa raíz: construcción de calle sobre duna eliminó
+  la resiliencia natural del sistema
+
+LINEAMIENTOS PARA MAHAHUAL:
+a) Plan integral de protección costera para todo el frente
+   urbano — NO más intervenciones individuales
+b) Evaluar retroceso planificado de la calle donde sea posible
+   para restaurar función de duna
+c) Diseño ingenieril de escollera continua si se mantiene
+   la línea actual — reemplazar roca suelta por estructura
+   diseñada con perfil que reduzca reflexión
+d) Relleno de playa frente a la escollera para recuperar
+   función turística y reducir reflexión
+e) Coordinación municipal obligatoria: prohibir colocación
+   individual de roca sin permiso ni diseño";"EVIDENCIA:
+— Escolleras de roca suelta sin diseño (foto campo CEGAM)
+— Bolsas de arena entre rocas (foto campo)
+— Pasto artificial sobre berma remanente (foto campo)
+— Cero playa en frente urbano (foto campo)
+— Calle principal construida sobre duna eliminada
+— Sargazo en la orilla";Alta (arrecife frente a costa);"Manglar; pastos; Banco Chinchorro (RB) 30 km";"Moderada-Alta;
+cruceros (~1 crucero/día en temporada);
+malecón peatonal;
+buceo;
+jet ski;
+pueblo pescador reconvertido a turismo";Semi-cerrado;Alta;EVIDENCIA: Dean 2007 (registros CONAGUA). Muelle: EVIDENCIA (Wikipedia Costa Maya)
+QR-VI-04;Mahahual S – Xcalak;18.7060°N, 87.7115°W;18.187450°N, 87.848171°W;55;Costa acumulativa;"Playa con arrecife; PN Arrecifes Xcalak; costa semi-virgen; SAM continuo; Xcalak ~400 hab.; Boca Bacalar Chico (frontera Belice); sin carretera continua";Arrecifal (natural);Bajo;N?S (débil);"Sin datos publicados de transporte.
+PN Xcalak; costa semi-virgen.
+Magnitud: indeterminada.
+
+Mecanismo (CERC cualitativo): alisios ESE; arrecife SAM continuo reduce Hb significativamente; ? ~10–20° sobre costa N-S.";"Bioproducción arrecifal; erosión natural";"Boca Bacalar Chico; offshore; Belice";"Sin datos cuantitativos.
+PN Xcalak; costa semi-virgen sin monitoreo geomorfológico publicado.
+Balance: indeterminado";"ESTRUCTURAS COSTERAS — QR-VI-04
+(foto aérea + Google Earth nov 2019 + campo)
+
+XCALAK (~18°16'N):
+— Muelle largo con MITAD INICIAL APOYADA COMO ESPIGÓN
+— A pesar de funcionar parcialmente como espigón,
+  NO se observan interrupciones significativas al transporte
+— Causa: la estructura está dentro de LAGUNA ARRECIFAL
+  donde la hidrodinámica está muy suavizada por el arrecife
+  del SAM + protección adicional de Banco Chinchorro offshore
+— El transporte longshore residual es prácticamente CERO
+  ? no hay arena en tránsito que interceptar
+
+CONTRASTE CON PUERTO MORELOS:
+— Puerto Morelos: arrecife disipa 85% ? 15% residual
+  suficiente para 50 m de acumulación en muelle
+— Xcalak: arrecife SAM + Chinchorro ? disipación >95%
+  ? muelle sin efecto perceptible
+— MISMO tipo de estructura, resultados OPUESTOS
+— Confirmación: el impacto de una estructura depende del
+  RÉGIMEN HIDRODINÁMICO LOCAL, no solo de su diseño
+
+RESTO DEL TRAMO (Mahahual S ? Xcalak, ~55 km):
+— Costa poco desarrollada, PN Xcalak
+— Sin estructuras costeras significativas documentadas
+— Protección arrecifal continua del SAM";"EVIDENCIA:
+— Muelle Xcalak con base de espigón sin efecto en transporte
+  (foto aérea + Google Earth)
+— Laguna arrecifal con hidrodinámica suavizada
+— Arrecife SAM + Banco Chinchorro como protección doble";"Alta (PN Xcalak; SAM)";"Manglar; lagunas; pastos; arrecife";"Baja; Xcalak turismo mínimo; pesca; bonefishing";Semi-cerrado;Muy alta;EVIDENCIA: PN Xcalak (CONANP)
+QR-VII-01;Costa N Bahía Chetumal;18.594521°N, 88.229637°W;18.5105°N, 88.2975°W;20;Sistema lagunar;"Costa estuarina baja; manglar dominante; fondos fangosos; baja energía; sin playas arenosas";N/A (estuarino);Muy bajo;Circulación estuarina;"N/A (sistema estuarino).
+Bahía de Chetumal: sin oleaje significativo; circulación estuarina domina.
+Transporte litoral no aplica en este contexto.";"Río Hondo (terrígeno); erosión manglar";"Fondos bahía (sedimentación fangosa); exportación limitada Caribe";"No aplica en sentido convencional de costa oceánica.
+Sistema estuarino con sedimento terrígeno del Río Hondo.
+No hay transporte litoral arenoso significativo.
+Las playas son artificiales; sin contención la arena se pierde
+incluso con oleaje mínimo de bahía (fetch limitado).";"ESTRUCTURAS COSTERAS — QR-VII-01 (Costa N Bahía)
+(fotos campo CEGAM + Google Earth)
+
+??? PLAYAS ARTIFICIALES (Calderitas / San Cristóbal) ???
+
+1. PLAYA ARTIFICIAL CON GEOTUBOS EXPUESTOS (~18°33'N):
+   — Geotubos (bolsacreto) COMPLETAMENTE EXPUESTOS
+   — La arena que los cubría se perdió
+   — Arena terrígena oscura (local, no carbonatada)
+   — Familias usan los geotubos como área recreativa
+   — EVIDENCIA: incluso en bahía protegida con fetch limitado,
+     la arena artificial se pierde sin contención adecuada
+
+2. PLAYA ARTIFICIAL CON ARENA BLANCA IMPORTADA (~18°33'N):
+   — Arena CARBONATADA importada (no local —
+     contraste con sedimento terrígeno natural de la bahía)
+   — Geotubo longitudinal como borde de contención lateral
+   — Se mantiene mejor: el geotubo confina la arena
+   — Observación: arena importada sobre bahía estuarina
+     = posible impacto en calidad de agua y ecosistema
+
+LINEAMIENTO: playas artificiales en bahía requieren
+CONTENCIÓN PERMANENTE; sin ella la arena se pierde
+incluso con oleaje mínimo. No importar arena carbonatada
+sin evaluar impacto en ecosistema estuarino.";"EVIDENCIA:
+— Geotubos expuestos en playa artificial (foto campo CEGAM)
+— Playa con arena carbonatada importada (foto campo)
+— Arena terrígena oscura = sedimento de Río Hondo";Nula;"Manglar extenso; humedales; manatí";"Moderada; contaminación urbana; agroquímicos
+Contaminación documentada (Ortiz-Hernández & Sáenz 1999, doi:10.1023/A:1005958805561)";Semi-cerrado (bahía c/Belice);Alta;EVIDENCIA: contaminación (Ortiz-Hernández & Sáenz 1999, doi:10.1023/A:1005958805561)
+QR-VII-02;Chetumal ciudad;18.5105°N, 88.2975°W;18.4925°N, 88.3055°W;15;Sistema lagunar (urbanizado);"Costa estuarina urbanizada;
+manglar fragmentado;
+fondos fangosos;
+sin playas arenosas";N/A (estuarino urbano);Muy bajo;Circulación estuarina;"N/A (sistema estuarino).
+Bahía de Chetumal: sin oleaje significativo; circulación estuarina domina.
+Transporte litoral no aplica en este contexto.";"Escorrentía urbana; Río Hondo";"Fondos bahía; infiltración kárstica";"No aplica en sentido convencional.
+Sistema estuarino con sedimento terrígeno del Río Hondo.
+Sin transporte litoral arenoso significativo.
+Malecón protege contra inundación, no contra erosión.";"ESTRUCTURAS COSTERAS — QR-VII-02 (Chetumal ciudad)
+(fotos campo CEGAM)
+
+??? MALECÓN DE CHETUMAL ???
+
+1. ESCOLLERA DE ROCA a lo largo del frente urbano:
+   — Todo el malecón bordeado por escollera continua
+   — SIN playa: solo roca y agua de bahía
+   — Función: protección contra inundaciones durante
+     nortes y tormentas, NO contra erosión de playa
+   — Es solución URBANA, no costera
+   — Frente completamente artificializado
+
+2. MURO DE BOLSACRETO (~18°30'54""N, zona David Gustavo):
+   — Geotubos como muro de contención del frente urbano
+
+??? DIAGNÓSTICO ???
+
+Chetumal es un SISTEMA DIFERENTE al resto de QR:
+— No hay transporte litoral arenoso significativo
+— Las playas no se forman naturalmente en frente urbano
+— Sedimento terrígeno (Río Hondo), no carbonatado
+— Oleaje por fetch de bahía, no alisios ni swell
+— Intervenciones son urbanas (malecón, protección contra
+  inundación) no de manejo de erosión oceánica
+
+LINEAMIENTOS ESPECÍFICOS PARA CHETUMAL:
+a) Malecón = infraestructura urbana, no costera;
+   lineamientos de costa oceánica NO aplican
+b) Criterios de protección para bahía deben ser
+   DIFERENTES a los de costa abierta del Caribe:
+   — Menor energía pero vulnerabilidad a inundación
+   — Sedimento terrígeno (diferente granulometría)
+   — Río Hondo como fuente y riesgo (crecidas)
+   — Manglar como primera línea de defensa (no arrecife)";"EVIDENCIA:
+— Malecón con escollera continua sin playa (foto campo)
+— Muro de bolsacreto zona David Gustavo (Google Earth)
+— Frente urbano completamente artificializado";Nula;"Manglar fragmentado; humedales degradados";"Alta;
+capital del estado;
+malecón Chetumal;
+puerto;
+aguas residuales
+Coliformes fecales documentados (Ortiz-Hernández & Sáenz 1999, doi:10.1023/A:1005958805561)";Semi-cerrado;Alta;EVIDENCIA: coliformes (Ortiz-Hernández & Sáenz 1999, doi:10.1023/A:1005958805561)
+QR-VII-03;Costa S Bahía – Río Hondo;18.4925°N, 88.3055°W;18.489331°N, 88.314889°W;25;Sistema lagunar;"Costa estuarina; desembocadura Río Hondo (único río significativo QR); frontera Belice; manglar; fondos fangosos";N/A (estuarino);Muy bajo;"Estuarina; aporte fluvial";"N/A (sistema estuarino).
+Bahía de Chetumal: sin oleaje significativo; circulación estuarina domina.
+Transporte litoral no aplica en este contexto.";"Río Hondo (sed. terrígeno; único aporte fluvial significativo QR); erosión manglar";"Fondos bahía; Belice";Sumidero neto;"Sin estructuras costeras significativas.
+Costa estuarina natural; Río Hondo.
+Influencia: N/A.";"Sedimentación; aportes terrígenos";Nula;"Manglar; humedales; Río Hondo";"Moderada; agroquímicos Río Hondo; zona franca Belice";Semi-cerrado (frontera);Alta;INTERPRETACIÓN: Río Hondo como único aporte fluvial por geología kárstica peninsular (EVIDENCIA)
+QR-Cz-a-01;Pta. Molas – San Miguel N;20.592216°N, 86.726972°W;20.4680°N, 86.9760°W;8;Costa acumulativa;"Playa con arrecife fringing; baja energía (sotavento); acceso limitado; costa semi-natural";Arrecifal (semi-natural);Bajo;N?S (corriente canal Cozumel);"Sin datos publicados de transporte.
+Sotavento Cozumel; baja energía; corriente del Canal de Cozumel domina.
+Magnitud: indeterminada.
+
+Mecanismo: corriente canal N?S probablemente > oleaje como agente; arrecife PN continuo; Hb residual muy bajo.";"Bioproducción Montastraea; fragmentos coralinos";"Canal profundo (~400 m); plataforma";"Sin datos cuantitativos.
+Costa semi-natural con arrecife PN continuo; sin series de perfiles.
+Balance: indeterminado";"Sin estructuras costeras significativas documentadas.
+Costa semi-natural con arrecife PN.
+Influencia: mínima.";"Sin datos; costa semi-natural";Muy alta (PN Arrecifes);"Arrecife fringing; sin laguna";"Baja; acceso limitado; algún resort";Semi-cerrado (arrecife);Alta;"INTERPRETACIÓN: Montastraea EVIDENCIA (Muckelbauer 1990, Facies 23; Alvarez-Filip et al. 2009, doi:10.1098/rspb.2009.0339)"
+QR-Cz-a-02;San Miguel – muelles cruceros;20.4680°N, 86.9760°W;20.4270°N, 86.9910°W;8;Costa acumulativa (intervenida);"Playa con protección arrecifal fringing continuo;
+PN Arrecifes Cozumel desde 1996;
+Montastraea/Orbicella como constructor arrecifal;
+3 muelles cruceros como estructuras costeras";Arrecifal (intervenida);Bajo;N?S (corriente canal);"Sin datos publicados de transporte.
+Muelles cruceros como estructuras que modifican el patrón local.
+Magnitud: indeterminada.
+
+Mecanismo: corriente canal + oleaje residual tras arrecife PN.";"Bioproducción; transporte residual";"Muelles (barrera parcial); canal profundo";"Sin datos cuantitativos de balance neto.
+Erosión localizada adyacente a muelles documentada cualitativamente.
+Muelles actúan como barreras parciales ? probable déficit downdrift.
+Balance: indeterminado (probable déficit localizado por muelles de cruceros)";"3 MUELLES DE CRUCEROS (Punta Langosta, SSA Mexico, Puerta Maya):
+— Estructuras perpendiculares mayores
+— Corriente del Canal de Cozumel (N?S) dominante sobre oleaje
+— Muelles actúan como barreras parciales a la corriente y al transporte
+— Posible acumulación en cara N de muelles (updrift si corriente N?S)
+— Erosión downdrift localizada reportada cualitativamente
+Malecón de San Miguel.
+Marina.
+Influencia moderada: muelles de cruceros modifican patrón local de corriente y sedimentos.";"Erosión localizada adyacente a muelles; perturbación sedimentaria por anclas y hélices; resuspensión y redistribución de sedimento fino";Muy alta (PN Arrecifes);"PN desde 1996; arrecife fringing";"EXTREMA;
+685 arribos cruceros H1 2025 (Sectur Federal);
+>500,000 buzos/año QR (SEDETUR 2018);
+malecón San Miguel;
+San Miguel = centro urbano principal;
+contaminación urbana;
+SCTLD (Alvarez-Filip et al. 2019)";Semi-cerrado;Media;"EVIDENCIA: cruceros (Sectur Federal 2025); buzos (SEDETUR 2018); SCTLD (Alvarez-Filip et al. 2019, doi:10.7717/peerj.8069)"
+QR-Cz-a-03;Muelles S – Pta. Celarain;20.4270°N, 86.9910°W;20.272384°N, 86.988061°W;14;Costa acumulativa;"Playa con arrecife; PN Arrecifes continuos; Montastraea maduro; Pta. Celarain faro; Laguna Colombia (interior)";Arrecifal (semi-natural);Bajo;N?S (débil);"Sin datos publicados de transporte.
+PN Arrecifes; costa semi-natural.
+Magnitud: indeterminada.
+
+Mecanismo: corriente canal N?S; arrecife PN continuo.";"Bioproducción arrecifal; fragmentos coralinos";"Canal profundo; Lag. Colombia";"Sin datos cuantitativos.
+PN Arrecifes; costa semi-natural sin monitoreo de perfiles publicado.
+Balance: indeterminado";"Sin estructuras costeras significativas.
+PN Arrecifes de Cozumel; costa semi-natural.
+Boyas de amarre para embarcaciones de buceo (no afectan fondo).
+Influencia: despreciable.";"Sin datos; PN";"Muy alta (PN Arrecifes; mejor buceo Caribe MX)";"Laguna Colombia; manglar; arrecife PN";"Moderada; buceo (USD 365/buzo/día, SEDETUR); resorts dispersos; Pta. Celarain parque";Semi-cerrado;Alta;"EVIDENCIA: PN Arrecifes (CONANP); gasto buzo (SEDETUR)"
+QR-Cz-b-01;Pta. Molas – costa NE (acantilados);20.592216°N, 86.726972°W;20.4680°N, 86.8580°W;10;Costa erosiva;"Costa acantilada; caliza MIS 5e; plataformas abrasión; acantilados activos; sin playa permanente; alta energía; sin desarrollo; acceso difícil";N/A (acantilados);Alto;"Variable; S?N parcial (refracción)";"Mínimo (costa erosiva rígida).
+Acantilados calizos sin playa ? CERC no aplicable.
+Transporte de arena litoral insignificante; dominan bioclastos gruesos gravitacionales.
+Energía de oleaje alta (barlovento E-SE) pero se disipa contra acantilados, no transportando arena.";"Erosión acantilados calizos; bioclastos gruesos";"Offshore Caribe; base acantilados";Negativo (erosión retrogresiva irreversible);"Sin estructuras costeras.
+Acantilados calizos sin playa ? no hay infraestructura costera.
+N/A (no hay playa que proteger ni transporte que interrumpir).";"Retroceso de acantilado activo (cliff retreat) (Geomorf. Cozumel 2024, UNAM); sin tasas cuantitativas de recesión; pérdida irreversible en escala temporal humana (la caliza no se regenera por procesos sedimentarios costeros)";Medio (arrecife menos desarrollado);"Plataformas abrasión; algas";"Mínima; sin acceso; sin desarrollo";Abierto (exposición total);Media;"EVIDENCIA: geomorfología (Geomorf. Cozumel 2024, doi:10.14350/rig.60709); caliza MIS 5e (Ward 1997)"
+QR-Cz-b-02;Costa E central (pocket beaches + acantilados);20.4680°N, 86.8580°W;20.3700°N, 86.8490°W;10;Costa mixta;"Alternancia acantilado-playa de bolsillo;
+caliza MIS 5e;
+playas gruesas (bioclastos);
+plataformas de abrasión;
+acceso por carretera costera";Mixta (acantilados + pocket beaches);Alto;Variable;"Sin datos publicados.
+Playas de bolsillo efímeras entre acantilados; material grueso (bioclastos).
+Magnitud: indeterminada; probablemente baja por confinamiento entre headlands.
+
+Mecanismo: oleaje E-SE directo; Hb ~1.0–1.5 m; pero playas confinadas ? ? efectivo reducido.";"Erosión caliza; bioclastos; reworking local";"Offshore; base acantilados";Negativo (erosión dominante);"Accesos de escalera a playas de bolsillo (estructuras menores).
+Sin espigones ni diques.
+Influencia: despreciable.";"Erosión activa; playas efímeras post-tormenta";Medio (arrecife disperso);"Algas; plataformas";"Baja;
+bares y restaurantes aislados sobre acantilado;
+acceso vehicular limitado";Abierto;Alta;"INTERPRETACIÓN: alternancia basada en observación (Ward 1997; Geomorf. Cozumel 2024, doi:10.14350/rig.60709)"
+QR-Cz-b-03;Costa SE – Pta. Celarain;20.3700°N, 86.8490°W;20.272384°N, 86.988061°W;15;Costa erosiva;"Costa acantilada; plataformas abrasión extensas; Pta. Celarain extremo S; faro histórico; sin playa permanente; parque Punta Sur";N/A (acantilados);Alto;"Variable; corrientes de punta";"Mínimo (plataformas de abrasión).
+CERC no aplicable: sin depósito arenoso sobre plataformas.
+Dominan procesos erosivos sobre roca.";"Erosión caliza; bioclastos";"Offshore; Canal Cozumel al W";Negativo (erosión permanente);"Faro Celarain (estructura puntual, no costera).
+Sin espigones ni diques.
+Plataformas de abrasión sin intervención.
+Influencia: N/A.";"Retroceso de acantilado (cliff retreat); pérdida irreversible en escala temporal humana (la caliza no se regenera por procesos sedimentarios costeros)";Medio (arrecife Pta. Sur);"Laguna Colombia (interior W); manglar; cocodrilos";"Baja; parque ecológico; faro; acceso controlado";Abierto;Alta;"INTERPRETACIÓN: clasificación basada en geomorfología regional (Ward 1997; Geomorf. Cozumel 2024, doi:10.14350/rig.60709)"

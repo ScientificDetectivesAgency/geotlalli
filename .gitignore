@@ -1,0 +1,14 @@
+venv/
+.git/
+linux_version/
+Base de datos-20260509T184629Z-3-006.zip
+Mockup_v2.mp4
+mockup_v1.mp4
+osgeo4w-setup.exe
+respaldo_proyecto.zip
+db.sqlite3
+__pycache__/
+media/
+fotos/
+staticfiles/
+.env

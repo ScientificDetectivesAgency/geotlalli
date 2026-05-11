@@ -1,0 +1,53 @@
+id;nombre_tramo
+QR-I-00-01;Límite Yucatán - Chiquilá (costa continental N, frente a Holbox W)
+QR-I-00-02;Chiquilá - Boca Conil (frente a Bahía de Holbox)
+QR-I-00-03;Boca Conil - Cabo Catoche (costa continental NE)
+QR-I-a-01;Punta Cocos (flecha terminal W)
+QR-I-a-02;Playa Norte Holbox (pueblo - zona turística principal)
+QR-I-a-03;Holbox pueblo E - Punta Mosquito
+QR-I-a-04;Punta Mosquito (flecha arenosa + hábitat flamencos)
+QR-I-a-05;Pta. Mosquito - extremo E Holbox
+QR-I-a-06;Costa S Holbox (Bahía de Holbox / Lag. Yalahau)
+QR-I-b-01;Costa W Contoy (sotavento)
+QR-I-b-02;Costa E Contoy (barlovento)
+QR-II-00-01;Cabo Catoche - Isla Blanca N (tramo continental N, sin desarrollo)
+QR-II-00-02;Costa Mujeres N - Boca Iglesias (inicio desarrollo costero)
+QR-II-a-01;Playa Norte I. Mujeres (pocket beach principal)
+QR-II-a-02;Costa W I. Mujeres (sotavento, pueblo)
+QR-II-a-03;Costa E I. Mujeres (barlovento, acantilados)
+QR-II-b-01;Isla Blanca (barra N de Chacmuchuc)
+QR-II-b-02;Costa Mujeres - Pto. Juárez
+QR-II-c-01;Puerto Cancún - Playa Langosta
+QR-II-c-02;Playa Langosta - Playa Tortugas
+QR-II-c-03;Playa Caracol - Punta Cancún (zona de convergencia)
+QR-II-c-04;Punta Cancún (headland / punto de divergencia)
+QR-III-01;Zona Hotelera Cancún (Pta. Cancún - Pta. Nizuc)
+QR-IV-a-01;Pta. Nizuc - Playa del Secreto
+QR-IV-a-02;"Puerto Morelos pueblo
+(PN Arrecife, referencia)"
+QR-IV-a-03;Pto. Morelos S - Punta Brava
+QR-IV-b-01;Pta. Brava - Punta Maroma (resorts, arrecife variable)
+QR-IV-b-02;Secrets Moxché - Playa del Carmen - Playacar (costa arenosa con erosión)
+QR-IV-c-01;Costa rocosa: Xcaret - Calica - Puerto Aventuras - Kantenah
+QR-IV-d-01;Akumal - Bahía Media Luna
+QR-IV-d-02;Xel-Há - Tankah
+QR-IV-d-03;Tulum ruinas - Tulum playa
+QR-IV-e-01;Tulum sur - límite Sian Ka'an
+QR-IV-f-01;Boca Paila - costa N Sian Ka'an
+QR-IV-f-02;Costa central Sian Ka'an + Bahía Ascensión
+QR-IV-f-03;Punta Allen
+QR-V-01;Pta. Allen - Bahía Espíritu Santo N
+QR-V-02;Costa S - Punta Herrero
+QR-VI-01;Pta. Herrero - Río Indio
+QR-VI-02;Río Indio - Mahahual N
+QR-VI-03;Mahahual (Costa Maya)
+QR-VI-04;Mahahual S - Xcalak
+QR-VII-01;Costa N Bahía Chetumal
+QR-VII-02;Chetumal ciudad
+QR-VII-03;Costa S Bahía - Río Hondo
+QR-Cz-a-01;Pta. Molas - San Miguel N
+QR-Cz-a-02;San Miguel - muelles cruceros
+QR-Cz-a-03;Muelles S - Pta. Celarain
+QR-Cz-b-01;Pta. Molas - costa NE (acantilados)
+QR-Cz-b-02;Costa E central (pocket beaches + acantilados)
+QR-Cz-b-03;Costa SE - Pta. Celarain
