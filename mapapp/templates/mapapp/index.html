@@ -134,7 +134,8 @@
         </button>
 
         <div class="search-box">
-            <input type="text" id="map-search" autocomplete="off">
+            <input type="text" id="map-search" autocomplete="off" list="search-options">
+            <datalist id="search-options"></datalist>
             <button id="search-btn"><i class="fas fa-search"></i></button>
         </div>
 
@@ -243,6 +244,18 @@
                             });
                         }
                     }).addTo(map);
+
+                    // Populate datalist for autocomplete
+                    const datalist = document.getElementById('search-options');
+                    if (datalist) {
+                        data.features.forEach(f => {
+                            if (f.properties.name && f.properties.name !== "Tramo Sin Nombre") {
+                                const option = document.createElement('option');
+                                option.value = f.properties.name;
+                                datalist.appendChild(option);
+                            }
+                        });
+                    }
 
                     document.getElementById('check-tramos').addEventListener('change', e => {
                         if (e.target.checked) {
@@ -590,11 +603,28 @@
             function doSearch() {
                 const term = document.getElementById('map-search').value.toLowerCase().trim();
                 if (!term || !tramosLayer) return;
+                
+                const removeAccents = (str) => {
+                    return str ? str.normalize("NFD").replace(/[\u0300-\u036f]/g, "") : "";
+                };
+                const cleanTerm = removeAccents(term);
+
                 let found = [];
                 tramosLayer.eachLayer(l => {
-                    if (l.feature.properties.name.toLowerCase().includes(term)) found.push(l);
+                    // Buscar en la columna 'name' de tc_qr_n3 (y en cod_name por si acaso)
+                    const props = l.feature.properties;
+                    const searchableText = removeAccents(props.name + " " + props.cod_name).toLowerCase();
+                    
+                    if (searchableText.includes(cleanTerm)) {
+                        found.push(l);
+                    }
                 });
-                if (found.length > 0) map.flyToBounds(L.featureGroup(found).getBounds(), { padding: [100, 100], duration: 1.5 });
+
+                if (found.length > 0) {
+                    map.flyToBounds(L.featureGroup(found).getBounds(), { padding: [100, 100], duration: 1.5 });
+                } else {
+                    alert("No se encontró ningún tramo con ese nombre (" + term + ").");
+                }
             }
         });
 
