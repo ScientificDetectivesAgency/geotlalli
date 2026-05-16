@@ -12,3 +12,7 @@ media/
 fotos/
 staticfiles/
 .env
+*.zip
+datos/Fotos GPS/
+scratch/
+serv_user.txt

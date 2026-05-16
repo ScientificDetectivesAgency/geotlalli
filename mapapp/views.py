@@ -139,7 +139,7 @@ def api_playa_detalle(request, pk):
     """
     
     fotos_data = []
-    fotos_dir = os.path.join(settings.BASE_DIR, 'fotos')
+    fotos_dir = os.path.join(settings.BASE_DIR, 'fotos', 'fotos')
     if os.path.exists(fotos_dir):
         for file in os.listdir(fotos_dir):
             if str(pk) in file and file.lower().endswith(('.png', '.jpg', '.jpeg', '.webp')):
